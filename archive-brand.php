@@ -51,7 +51,7 @@ $sdn_brands_pg = home_url( '/brands' );
     <div class="ph-inner center">
       <p class="eyebrow reveal" style="justify-content:center;">Brands We Carry</p>
       <h1 class="display reveal reveal-d1" style="margin:24px 0;">300+ brands.<br><span class="italic gradient-text">One integration.</span></h1>
-      <p class="lede reveal reveal-d2" style="max-width:620px;margin:0 auto;">The deepest smoke, vape &amp; hemp catalog in the industry &mdash; the brands your customers already ask for, ready to dropship or buy wholesale.</p>
+      <p class="lede reveal reveal-d2" style="max-width:620px;margin:0 auto;">The deepest adult, intimacy &amp; wellness catalog in the industry &mdash; the brands your customers already ask for, ready to dropship or buy wholesale.</p>
     </div>
   </section>
 

@@ -15,19 +15,19 @@ get_header();
 /**
  * Comparison matrix.
  *
- * Each row: [ feature, smoke, crowdship, spocket, duoplane ] where each value
+ * Each row: [ feature, productpro, crowdship, spocket, duoplane ] where each value
  * after the label is a boolean (true = check, false = cross).
  */
 $matrix = array(
     array( 'Free retailer tier',                  true,  false, true,  false ),
     array( 'No PO / transaction fees',            true,  false, false, true  ),
-    array( 'Built for smoke/vape/CBD',            true,  true,  false, false ),
+    array( 'Built for adult/intimacy/wellness',   true,  true,  false, false ),
     array( 'Blind dropshipping',                  true,  true,  true,  true  ),
     array( 'Automatic order routing',            true,  true,  false, true  ),
     array( 'Real-time inventory sync',            true,  true,  true,  true  ),
     array( 'Automated supplier payments',         true,  true,  false, false ),
     array( 'Dropship accounting (QuickBooks)',    true,  true,  false, false ),
-    array( '300+ smoke/vape brands',              true,  true,  false, false ),
+    array( '300+ adult store brands',             true,  true,  false, false ),
     array( 'Shopify / WooCommerce / BigCommerce', true,  true,  true,  true  ),
     array( 'REST API',                            true,  true,  false, true  ),
 );
@@ -38,7 +38,7 @@ $matrix = array(
       <div class="hero-inner">
         <p class="eyebrow reveal">Compare</p>
         <h1 class="display reveal reveal-d1" style="margin:24px 0;">ProductPro vs<br><span class="italic gradient-text">the rest.</span></h1>
-        <p class="lede reveal reveal-d2" style="max-width:620px;">Built specifically for smoke, vape, CBD and hemp. No PO fees, no hidden margin tax, a free retailer tier, and the deepest headshop catalog on the market.</p>
+        <p class="lede reveal reveal-d2" style="max-width:620px;">Built specifically for adult, intimacy, wellness and lingerie. No PO fees, no hidden margin tax, a free retailer tier, and the deepest pleasure product catalog on the market.</p>
       </div>
     </section>
 
@@ -49,7 +49,7 @@ $matrix = array(
             <div class="inner"><p class="bento-eyebrow">vs Crowdship</p><h3>No PO fees. No margin tax.</h3><p>Crowdship charges a 2&ndash;10% fee on every supplier cost. ProductPro doesn't tax your margin. Ever.</p></div>
           </div>
           <div class="bento-cell dark reveal reveal-d1">
-            <div class="inner"><p class="bento-eyebrow">vs Spocket</p><h3>Built for smoke, not AliExpress.</h3><p>Spocket is for generic goods with 2-week shipping. ProductPro is USA-based with automatic order fulfillment and tracking sync.</p></div>
+            <div class="inner"><p class="bento-eyebrow">vs Spocket</p><h3>Built for intimacy, not AliExpress.</h3><p>Spocket is for generic goods with 2-week shipping. ProductPro is USA-based with automatic order fulfillment and tracking sync.</p></div>
           </div>
           <div class="bento-cell dark reveal reveal-d2">
             <div class="inner"><p class="bento-eyebrow">vs Duoplane</p><h3>Automation, not just routing.</h3><p>Duoplane routes orders. ProductPro automates sourcing, sync, payments, and fulfillment end to end.</p></div>

@@ -90,8 +90,8 @@ function sdn_register_brand_fields() {
                 'label'         => 'Categories',
                 'name'          => 'brand_categories',
                 'type'          => 'text',
-                'instructions'  => 'e.g., "Vaporizers, Bongs, Apparel". Shown as tags on the brand page.',
-                'placeholder'   => 'Vaporizers, Bongs, Apparel',
+                'instructions'  => 'e.g., "Vibrators, Lingerie, Wellness". Shown as tags on the brand page.',
+                'placeholder'   => 'Vibrators, Lingerie, Wellness',
             ),
 
             // Featured (shows in mega menu + featured grid)

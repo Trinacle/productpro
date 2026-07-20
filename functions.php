@@ -343,7 +343,7 @@ define( 'SDN_OG_IMAGE', '/wp-content/uploads/2024/06/productpro-600x338.webp' );
 add_filter( 'wpseo_opengraph_image', 'sdn_yoast_og_image' );
 add_filter( 'wpseo_twitter_image',   'sdn_yoast_og_image' );
 function sdn_yoast_og_image( $img ) {
-    if ( $img && strpos( $img, 'shopifiy.png' ) === false && strpos( $img, 'drop-shipping-smoke-products' ) === false ) {
+    if ( $img && strpos( $img, 'shopifiy.png' ) === false && strpos( $img, 'drop-shipping-adult-products' ) === false ) {
         return $img; // a real, correct image is already set — respect it
     }
     return home_url( SDN_OG_IMAGE );
@@ -359,22 +359,22 @@ function sdn_yoast_metadesc( $desc ) {
 
     $map = array(
         // slug-path => meta description
-        ''                           => 'ProductPro is the #1 smoke shop dropshipping platform. Import 20,000+ smoke, vape & CBD products to your Shopify or WooCommerce store. Start free.',
-        'pricing'                    => 'ProductPro pricing starts at $49.99/mo with a 7-day free trial. Dropship 20,000+ smoke shop products. Shopify & WooCommerce integrations included. No transaction fees.',
-        'marketplace'                => 'Browse the ProductPro marketplace: 20,000+ smoke, vape, glass & CBD products from 300+ brands. Create a free account to unlock wholesale pricing and dropship.',
-        'brands'                     => 'Discover 300+ smoke shop brands available for dropshipping and wholesale on ProductPro: PAX, Puffco, Cookies, RAW, Storz & Bickel, DynaVap, GRAV and more.',
-        'retailers'                  => 'Retailers: automate smoke shop dropshipping with ProductPro. Sync 20,000+ products, auto-fulfill orders, white-label shipping. Shopify & WooCommerce integration.',
+        ''                           => 'ProductPro is the #1 adult store dropshipping platform. Import 20,000+ adult, wellness & intimacy products to your Shopify or WooCommerce store. Start free.',
+        'pricing'                    => 'ProductPro pricing starts at $49.99/mo with a 7-day free trial. Dropship 20,000+ adult store products. Shopify & WooCommerce integrations included. No transaction fees.',
+        'marketplace'                => 'Browse the ProductPro marketplace: 20,000+ adult, intimacy, lingerie & wellness products from 300+ brands. Create a free account to unlock wholesale pricing and dropship.',
+        'brands'                     => 'Discover 300+ adult store brands available for dropshipping and wholesale on ProductPro: LELO, We-Vibe, Satisfyer, Womanizer, Fleshlight, Sliquid and more.',
+        'retailers'                  => 'Retailers: automate adult store dropshipping with ProductPro. Sync 20,000+ products, auto-fulfill orders, white-label shipping. Shopify & WooCommerce integration.',
         'suppliers'                  => 'Suppliers: launch a dropship channel on ProductPro from $49.99/mo. Reach thousands of retailers, automate order fulfillment, and grow distribution.',
-        'wholesalers'                => 'Wholesalers: buy smoke, vape & CBD products at wholesale pricing through ProductPro. Browse 300+ brands, bulk ordering, no minimums on most items.',
+        'wholesalers'                => 'Wholesalers: buy adult, wellness & intimacy products at wholesale pricing through ProductPro. Browse 300+ brands, bulk ordering, no minimums on most items.',
         'help'                       => 'ProductPro Help Center: guides, FAQs, and docs for setting up your dropshipping store, syncing products, and managing orders on Shopify and WooCommerce.',
-        'contact'                    => 'Contact ProductPro for smoke shop dropshipping support, supplier partnerships, or sales inquiries. Reach our team and start dropshipping 20,000+ products.',
-        'about'                      => 'ProductPro is the industry-leading smoke shop dropshipping marketplace, connecting retailers with 300+ suppliers and 20,000+ products since 2023.',
-        'advertise'                  => 'Advertise on ProductPro: featured listings, homepage placement, newsletter sponsorships, and sponsored content. Reach smoke shop retailers and suppliers.',
-        'demo'                       => 'Get a personalized ProductPro demo. See how to dropship 20,000+ smoke shop products with automatic inventory sync and order fulfillment.',
+        'contact'                    => 'Contact ProductPro for adult store dropshipping support, supplier partnerships, or sales inquiries. Reach our team and start dropshipping 20,000+ products.',
+        'about'                      => 'ProductPro is the industry-leading adult store dropshipping marketplace, connecting retailers with 300+ suppliers and 20,000+ products since 2023.',
+        'advertise'                  => 'Advertise on ProductPro: featured listings, homepage placement, newsletter sponsorships, and sponsored content. Reach adult store retailers and suppliers.',
+        'demo'                       => 'Get a personalized ProductPro demo. See how to dropship 20,000+ adult store products with automatic inventory sync and order fulfillment.',
         'integrations'               => 'ProductPro integrates with Shopify, WooCommerce, and BigCommerce. One-click product import, automatic inventory sync, and order fulfillment.',
-        'industries'                 => 'ProductPro serves smoke shops, vape shops, CBD stores, dispensaries, and headshops. Dropship products across the entire smoke, vape & hemp industry.',
-        'resources'                  => 'ProductPro resources: dropshipping guides, growth tactics, supplier spotlights, and industry insights for smoke shop retailers.',
-        'testimonials'               => 'Read what smoke shop retailers say about ProductPro. Real reviews from Shopify and WooCommerce store owners growing with smoke shop dropshipping.',
+        'industries'                 => 'ProductPro serves adult stores, intimacy boutiques, lingerie shops, lubricant & wellness brands, and pleasure product retailers. Dropship across the entire adult, intimacy & wellness industry.',
+        'resources'                  => 'ProductPro resources: dropshipping guides, growth tactics, supplier spotlights, and industry insights for adult store retailers.',
+        'testimonials'               => 'Read what adult store retailers say about ProductPro. Real reviews from Shopify and WooCommerce store owners growing with adult store dropshipping.',
     );
 
     // Match by page path.
@@ -417,7 +417,7 @@ function sdn_yoast_metadesc( $desc ) {
 add_filter( 'wpseo_title', 'sdn_yoast_title', 10, 2 );
 function sdn_yoast_title( $title ) {
     if ( is_front_page() ) {
-        return 'ProductPro — #1 Smoke Shop Dropshipping App | Shopify & WooCommerce';
+        return 'ProductPro — #1 Adult Store Dropshipping App | Shopify & WooCommerce';
     }
     // Brand pages: build a proper SEO title from the brand name.
     $path = trim( parse_url( $_SERVER['REQUEST_URI'] ?? '/', PHP_URL_PATH ), '/' );
@@ -447,14 +447,14 @@ function sdn_yoast_title( $title ) {
 add_filter( 'wpseo_opengraph_title', 'sdn_yoast_homepage_og_title' );
 function sdn_yoast_homepage_og_title( $title ) {
     if ( is_front_page() ) {
-        return 'ProductPro — #1 Smoke Shop Dropshipping App';
+        return 'ProductPro — #1 Adult Store Dropshipping App';
     }
     return $title;
 }
 add_filter( 'wpseo_opengraph_desc', 'sdn_yoast_homepage_og_desc' );
 function sdn_yoast_homepage_og_desc( $desc ) {
     if ( is_front_page() ) {
-        return 'Import 20,000+ smoke, vape & CBD products to your store. Sync inventory, auto-fulfill orders. Shopify & WooCommerce. Start free.';
+        return 'Import 20,000+ adult, wellness & intimacy products to your store. Sync inventory, auto-fulfill orders. Shopify & WooCommerce. Start free.';
     }
     return $desc;
 }
@@ -478,7 +478,7 @@ function sdn_schema() {
         'url'      => $home,
         'logo'     => home_url( '/wp-content/uploads/productpro-logo-dark.png' ),
         'image'    => home_url( SDN_OG_IMAGE ),
-        'description' => 'The #1 smoke shop dropshipping platform. Sync 20,000+ smoke, vape & CBD products to Shopify and WooCommerce stores.',
+        'description' => 'The #1 adult store dropshipping platform. Sync 20,000+ adult, wellness & intimacy products to Shopify and WooCommerce stores.',
         'sameAs'   => array(
             'https://www.facebook.com/productpro',
             'https://x.com/productpro',

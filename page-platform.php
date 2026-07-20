@@ -25,7 +25,7 @@ $sdu = function ( $path ) { return home_url( '/wp-content/uploads/2024/01/' . $p
       <div class="ph-inner center">
         <p class="eyebrow reveal" style="justify-content:center;">The Platform</p>
         <h1 class="display reveal reveal-d1" style="margin:24px 0;">The industry leading<br><span class="italic gradient-text">dropship marketplace.</span></h1>
-        <p class="lede reveal reveal-d2" style="max-width:640px;margin:0 auto;">One platform to import over 20,000 smoke shop products, sync inventory in real time, and automate order fulfillment with your suppliers.</p>
+        <p class="lede reveal reveal-d2" style="max-width:640px;margin:0 auto;">One platform to import over 20,000 adult store products, sync inventory in real time, and automate order fulfillment with your suppliers.</p>
         <div class="hero-actions reveal reveal-d3" style="justify-content:center;margin-top:36px;">
           <a href="https://apps.shopify.com/air-waves-apparel" class="btn btn-lime btn-lg">Install on Shopify</a>
           <a href="<?php echo esc_url( $retail_url ); ?>" class="btn btn-outline btn-lg">For retailers</a>
@@ -76,7 +76,7 @@ $sdu = function ( $path ) { return home_url( '/wp-content/uploads/2024/01/' . $p
           <div class="feat-card reveal reveal-d2"><div class="fc-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 1 1-3-6.7"/><polyline points="21 4 21 9 16 9"/></svg></div><h4>Automatic order fulfillment</h4><p>Easily manage orders in your Shopify or WooCommerce. Tracking numbers sync across suppliers, retailers &amp; customers.</p></div>
           <div class="feat-card reveal"><div class="fc-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="6" width="20" height="12" rx="2"/><path d="M6 10v4M10 10v4M14 10v4M18 10v4"/></svg></div><h4>Shopping cart integrations</h4><p>Native apps for Shopify, WooCommerce, and BigCommerce. One-click install.</p></div>
           <div class="feat-card reveal reveal-d1"><div class="fc-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7h13l4 4v6h-3"/><circle cx="7" cy="17" r="2"/><circle cx="17" cy="17" r="2"/></svg></div><h4>Stock up local inventory</h4><p>Purchase products at wholesale prices with no minimum order amount. Buy in bulk or as needed.</p></div>
-          <div class="feat-card reveal reveal-d2"><div class="fc-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l1-5h16l1 5"/><path d="M5 9v11h14V9"/></svg></div><h4>20,000+ products</h4><p>Water pipes, vaporizers, CBD, and accessories &mdash; all from 300+ of the biggest brands in the smoke industry.</p></div>
+          <div class="feat-card reveal reveal-d2"><div class="fc-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l1-5h16l1 5"/><path d="M5 9v11h14V9"/></svg></div><h4>20,000+ products</h4><p>Vibrators, lingerie, lubricants, and intimacy essentials &mdash; all from 300+ of the biggest brands in the adult industry.</p></div>
         </div>
       </div>
     </section>
@@ -124,7 +124,7 @@ $sdu = function ( $path ) { return home_url( '/wp-content/uploads/2024/01/' . $p
             <h2 class="tool-name" style="font-size:2.2rem;">Reach hundreds of retailers.</h2>
           </div>
           <div class="tool-body">
-            <p class="lede" style="font-size:1.05rem;color:var(--ink);">List your catalog once and instantly reach hundreds of vetted smoke shop retailers. Automated order routing, real-time inventory sync, and no per-listing fees.</p>
+            <p class="lede" style="font-size:1.05rem;color:var(--ink);">List your catalog once and instantly reach hundreds of vetted adult store retailers. Automated order routing, real-time inventory sync, and no per-listing fees.</p>
             <div class="tool-grid">
               <div class="tool-tile"><strong>List once</strong><span>Reach every retailer in the network</span></div>
               <div class="tool-tile"><strong>Automated orders</strong><span>Orders route straight to your fulfillment</span></div>
@@ -141,7 +141,7 @@ $sdu = function ( $path ) { return home_url( '/wp-content/uploads/2024/01/' . $p
     <section class="sec" style="background:#fff;color:#1d1d1f;">
       <div class="wrap center" style="color:#1d1d1f;">
         <p class="eyebrow reveal" style="justify-content:center;color:#0a6b3f;">Shopping Cart Integrations</p>
-        <h2 class="display reveal reveal-d1" style="margin-top:20px;color:#1d1d1f;">Import over 20,000 smoke shop<br>products to <span style="color:#0a6b3f;">your online store.</span></h2>
+        <h2 class="display reveal reveal-d1" style="margin-top:20px;color:#1d1d1f;">Import over 20,000 adult store<br>products to <span style="color:#0a6b3f;">your online store.</span></h2>
         <div class="integrations-row reveal reveal-d2" style="margin-top:56px;">
           <?php sdn_integration_bubbles(); ?>
         </div>

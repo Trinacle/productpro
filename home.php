@@ -16,7 +16,7 @@ get_header();
       <div class="ph-inner center">
         <p class="eyebrow reveal" style="justify-content:center;">Blog</p>
         <h1 class="display reveal reveal-d1" style="margin:24px 0;">Guides, news &amp;<br><span class="italic gradient-text">growth tactics.</span></h1>
-        <p class="lede reveal reveal-d2" style="max-width:560px;margin:0 auto;">Everything you need to run a smoke shop dropshipping business.</p>
+        <p class="lede reveal reveal-d2" style="max-width:560px;margin:0 auto;">Everything you need to run a adult store dropshipping business.</p>
       </div>
     </section>
 

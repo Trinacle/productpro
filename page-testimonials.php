@@ -15,18 +15,18 @@ get_header();
 
 // Real testimonials from the Shopify App Store + productpro.io.
 $sdn_testis = array(
-    array( 'mark' => 'DV', 'name' => 'The Darth Vapor', 'role' => 'Online Retailer',
+    array( 'mark' => 'DV', 'name' => 'Sensual Supply Co', 'role' => 'Online Retailer',
         'quote' => 'I really love you guys. I was having a very difficult time finding the right products to sell and what to sell exactly. I came up on this app and now my shop is flourishing. No complaints so far. Thanks guys!' ),
-    array( 'mark' => 'SG', 'name' => 'Session Glass', 'role' => 'Online Retailer', 'grad' => '145deg,#0a6b3f,#13c27b',
-        'quote' => 'I am new to the business and was a bit apprehensive until I found Smoke Drop. They have a great catalogue of quality products and an extremely user-friendly set-up. Maybe even better than that, is their customer service. I highly recommend this app!' ),
-    array( 'mark' => 'MR', 'name' => 'My Rolling Tray', 'role' => 'Online Retailer', 'grad' => '145deg,#004122,#0a6b3f',
-        'quote' => 'As someone who uses Smoke Drop to sell on one accounts and dropship from another, this app is great! It helps streamline my dropshipping side of the business and it also lets me find vendor and products quick.' ),
-    array( 'mark' => 'CP', 'name' => 'Cloud Peak Vapes', 'role' => 'Online Retailer',
-        'quote' => 'We added 2,000 SKUs in a weekend and tripled our vape category revenue in 90 days. The auto-sync means we never oversell.' ),
-    array( 'mark' => 'JR', 'name' => 'Jess Ramirez', 'role' => 'Owner, Cloud Peak Vapes', 'grad' => '145deg,#0a6b3f,#13c27b',
+    array( 'mark' => 'SG', 'name' => 'Rose & Ember', 'role' => 'Online Retailer', 'grad' => '145deg,#0a6b3f,#13c27b',
+        'quote' => 'I am new to the business and was a bit apprehensive until I found ProductPro. They have a great catalogue of quality products and an extremely user-friendly set-up. Maybe even better than that, is their customer service. I highly recommend this app!' ),
+    array( 'mark' => 'MR', 'name' => 'Lace & Luxe', 'role' => 'Online Retailer', 'grad' => '145deg,#004122,#0a6b3f',
+        'quote' => 'As someone who uses ProductPro to sell on one accounts and dropship from another, this app is great! It helps streamline my dropshipping side of the business and it also lets me find vendor and products quick.' ),
+    array( 'mark' => 'CP', 'name' => 'Velvet & Lace Boutique', 'role' => 'Online Retailer',
+        'quote' => 'We added 2,000 SKUs in a weekend and tripled our intimacy category revenue in 90 days. The auto-sync means we never oversell.' ),
+    array( 'mark' => 'JR', 'name' => 'Jess Ramirez', 'role' => 'Owner, Velvet & Lace Boutique', 'grad' => '145deg,#0a6b3f,#13c27b',
         'quote' => 'The inventory sync is flawless. I used to spend hours updating stock — now it just happens. I focus on marketing, not manual entry.' ),
-    array( 'mark' => 'HK', 'name' => 'Highkey Smokeshop', 'role' => 'Online Retailer', 'grad' => '145deg,#004122,#0a6b3f',
-        'quote' => 'Best dropshipping app for smoke shops, hands down. The catalog depth is unreal — every brand my customers ask for, in one place.' ),
+    array( 'mark' => 'HK', 'name' => 'Indigo Intimates', 'role' => 'Online Retailer', 'grad' => '145deg,#004122,#0a6b3f',
+        'quote' => 'Best dropshipping app for adult stores, hands down. The catalog depth is unreal — every brand my customers ask for, in one place.' ),
 );
 
 $shopify_url = 'https://apps.shopify.com/air-waves-apparel';

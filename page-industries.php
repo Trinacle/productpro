@@ -23,44 +23,44 @@ $uploads    = home_url( '/wp-content/uploads/' );
  */
 $verticals = array(
     array(
-        'tag'   => 'Headshop',
-        'title' => 'Smoke shop &amp; headshop',
-        'desc'  => 'Bongs, dab rigs, grinders, rolling papers, hand pipes, and storage. The deepest catalog in the category.',
+        'tag'   => 'Adult Novelties',
+        'title' => 'Adult novelties &amp; toys',
+        'desc'  => 'Vibrators, dildos, couples toys, and pleasure products for every preference. The deepest catalog in the category.',
         'img'   => $uploads . 'puffco.jpg',
         'stats' => array( '500+' => 'brands', '100+' => 'categories', '1,000+' => 'retailers' ),
     ),
     array(
-        'tag'   => 'Vaporizers',
-        'title' => 'Vapes &amp; vaporizers',
-        'desc'  => 'Dry herb, concentrate, and e-liquid vaporizers, 510 batteries, disposables, coils, and replacement parts.',
+        'tag'   => 'Lingerie',
+        'title' => 'Lingerie &amp; apparel',
+        'desc'  => 'Lingerie, hosiery, costumes, body jewelry, and intimate apparel for every body and occasion.',
         'img'   => $uploads . '4f7a4a09-90de-4cbd-805f-6a95736f3dbe.jpg',
-        'stats' => array( '60+' => 'vape brands', '2,000+' => 'SKUs', 'USA' => 'warehoused' ),
+        'stats' => array( '60+' => 'apparel brands', '2,000+' => 'SKUs', 'USA' => 'warehoused' ),
     ),
     array(
-        'tag'   => 'CBD &amp; Hemp',
-        'title' => 'CBD, THCA &amp; hemp',
-        'desc'  => 'Flower, prerolls, edibles, tinctures, topicals, and vape cartridges. Farm Bill compliant, hemp-derived.',
+        'tag'   => 'Lubricants &amp; Wellness',
+        'title' => 'Lubricants &amp; wellness',
+        'desc'  => 'Personal lubricants, massage oils, enhancers, and intimate wellness products. Body-safe, premium formulations.',
         'img'   => $uploads . '6000mg_front.jpg',
-        'stats' => array( '1,000+' => 'SKUs', '50+' => 'brands', 'Farm Bill' => 'compliant' ),
+        'stats' => array( '1,000+' => 'SKUs', '50+' => 'brands', 'Body-safe' => 'formulas' ),
     ),
     array(
-        'tag'   => 'Glass &amp; Collectibles',
-        'title' => 'Glass art &amp; collectibles',
-        'desc'  => 'Heady glass, water pipes, quartz bangers, dab tools, and display-worthy collectible pieces.',
+        'tag'   => 'Bondage &amp; Kink',
+        'title' => 'Bondage &amp; kink',
+        'desc'  => 'Restraints, impact toys, cuffs, and BDSM accessories for every experience level &mdash; from beginner kits to pro-grade gear.',
         'img'   => $uploads . 'f4c2b208-df8f-47a6-8c66-b9af80163520.jpg',
-        'stats' => array( '40+' => 'glass artists', 'Hand-blown' => 'quality', 'Blind' => 'dropship' ),
+        'stats' => array( '40+' => 'specialty brands', 'Premium' => 'quality', 'Blind' => 'dropship' ),
     ),
     array(
         'tag'   => 'Lifestyle',
         'title' => 'Lifestyle &amp; accessories',
-        'desc'  => 'Odor eliminators, candles, apparel, bags, and the accessories customers add to every order.',
+        'desc'  => 'Massage candles, body care, games, bachelor and bachelorette party supplies, and the accessories customers add to every order.',
         'img'   => $uploads . 'bcd1d5c2-47e4-496d-b338-fd4a78adfc3f.jpg',
         'stats' => array( '200+' => 'SKUs', 'High-margin' => 'add-ons', 'Fast' => 'movers' ),
     ),
     array(
-        'tag'   => 'Adult',
-        'title' => 'Adult novelty',
-        'desc'  => 'Adult wellness and novelty products with discreet, blind dropshipping under your store&rsquo;s brand.',
+        'tag'   => 'Men&rsquo;s Toys',
+        'title' => 'Men&rsquo;s pleasure',
+        'desc'  => 'Strokers, sleeves, pumps, and prostate toys &mdash; with discreet, blind dropshipping under your store&rsquo;s brand.',
         'img'   => $uploads . 'Snapinst.app_373306989_18384289906049392_5436773603243975300_n_1080-1024x1024.jpg',
         'stats' => array( 'Discreet' => 'packaging', 'Blind' => 'dropship', 'All 50' => 'states' ),
     ),
@@ -72,7 +72,7 @@ $verticals = array(
       <div class="hero-inner">
         <p class="eyebrow reveal">By industry</p>
         <h1 class="display reveal reveal-d1" style="margin:24px 0;">Every category,<br><span class="italic gradient-text">one integration.</span></h1>
-        <p class="lede reveal reveal-d2" style="max-width:640px;">From headshop staples to hemp, glass, and lifestyle &mdash; ProductPro covers the categories your customers already ask for, with vetted suppliers and blind dropshipping under your brand.</p>
+        <p class="lede reveal reveal-d2" style="max-width:640px;">From vibrators and lingerie to lubricants, bondage, and lifestyle &mdash; ProductPro covers the categories your customers already ask for, with vetted suppliers and blind dropshipping under your brand.</p>
       </div>
     </section>
 

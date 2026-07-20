@@ -22,10 +22,10 @@ $demo_url    = home_url( '/demo' );
         <p class="eyebrow reveal">For Suppliers &amp; Brands</p>
         <h1 class="display-mega reveal reveal-d1" style="margin:24px 0;font-size:clamp(2.6rem,8vw,7rem);">
           <span class="line-mask"><span>Distribute to</span></span>
-          <span class="line-mask line-mask-d1"><span>hundreds of <em class="italic gradient-text">smoke</em></span></span>
+          <span class="line-mask line-mask-d1"><span>hundreds of <em class="italic gradient-text">adult</em></span></span>
           <span class="line-mask line-mask-d2"><span>shops &amp; retailers.</span></span>
         </h1>
-        <p class="lede reveal reveal-d3" style="max-width:640px;">Unlock the power of dropshipping and distribute your products to hundreds of smoke shops &amp; online retailers. Fully automated order management. Easy &amp; fast catalog import. <strong style="color:var(--ink);">From $49.99/mo &mdash; no transaction fees, no commissions, ever.</strong></p>
+        <p class="lede reveal reveal-d3" style="max-width:640px;">Unlock the power of dropshipping and distribute your products to hundreds of adult stores &amp; online retailers. Fully automated order management. Easy &amp; fast catalog import. <strong style="color:var(--ink);">From $49.99/mo &mdash; no transaction fees, no commissions, ever.</strong></p>
         <div class="hero-actions reveal reveal-d4">
           <a href="https:///signup" class="btn btn-lime btn-lg">Become a supplier</a>
           <a href="<?php echo esc_url( $demo_url ); ?>" class="btn btn-outline btn-lg">Get a Demo</a>
@@ -90,7 +90,7 @@ $demo_url    = home_url( '/demo' );
           <h2 class="display reveal reveal-d1" style="margin-top:24px;">The fastest, lowest-cost path<br><span class="italic gradient-text">to retail distribution.</span></h2>
         </div>
         <div class="feat-grid">
-          <div class="feat-card reveal"><div class="fc-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div><h4>Hundreds of retailers, one integration</h4><p>List once and reach hundreds of vetted smoke shop retailers. No per-store setup, no per-account management.</p></div>
+          <div class="feat-card reveal"><div class="fc-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div><h4>Hundreds of retailers, one integration</h4><p>List once and reach hundreds of vetted adult store retailers. No per-store setup, no per-account management.</p></div>
           <div class="feat-card reveal reveal-d1"><div class="fc-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 1v22"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg></div><h4>100% free to start</h4><p>No listing fees, no transaction fees, no commissions. The Supplier plan ($49.99/mo) only unlocks advanced automation when you're ready to scale.</p></div>
           <div class="feat-card reveal reveal-d2"><div class="fc-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 0 1 15-6.7L21 8"/><path d="M21 3v5h-5"/></svg></div><h4>Fully automated orders</h4><p>Customer orders route straight to your fulfillment. Tracking numbers sync back to retailers and end customers automatically.</p></div>
           <div class="feat-card reveal"><div class="fc-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M7 14l3-3 3 2 4-5"/></svg></div><h4>Demand analytics</h4><p>See sell-through by retailer, region, and SKU. Forecast demand and restock before you run out.</p></div>
@@ -135,7 +135,7 @@ $demo_url    = home_url( '/demo' );
         <div class="bento-cell full reveal" style="background:linear-gradient(135deg,var(--green-d),var(--green));border:1px solid var(--green-l);min-height:auto;">
           <div class="inner" style="padding:clamp(48px,7vw,80px);align-items:center;text-align:center;">
             <p class="bento-eyebrow" style="color:rgba(255,255,255,.8);">Get started</p>
-            <p class="reveal reveal-d1" style="font-family:var(--display);font-size:clamp(1.8rem,3.5vw,2.8rem);font-weight:600;color:#fff;line-height:1.2;margin-top:20px;max-width:780px;">Distribute your products to hundreds of smoke shops &amp; online retailers.</p>
+            <p class="reveal reveal-d1" style="font-family:var(--display);font-size:clamp(1.8rem,3.5vw,2.8rem);font-weight:600;color:#fff;line-height:1.2;margin-top:20px;max-width:780px;">Distribute your products to hundreds of adult stores &amp; online retailers.</p>
             <p class="lede reveal reveal-d2" style="color:rgba(255,255,255,.82);max-width:560px;margin:24px auto 0;">Fully automated order management. Easy &amp; fast catalog import. Seamless product import &amp; order fulfillment. Sync inventory with Shopify &amp; WooCommerce.</p>
             <a href="<?php echo esc_url( $contact_url ); ?>" class="btn btn-lime btn-lg reveal reveal-d3" style="background:#fff;color:var(--green);margin-top:36px;">Fill out the form to get started</a>
           </div>

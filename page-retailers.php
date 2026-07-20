@@ -47,14 +47,14 @@ $brands_url  = home_url( '/brands' );
       <div class="wrap">
         <div style="max-width:780px;margin-bottom:64px;">
           <p class="eyebrow reveal">Why retailers win</p>
-          <h2 class="display reveal reveal-d1" style="margin-top:24px;">Run a full smoke shop<br><span class="italic gradient-text">without a warehouse.</span></h2>
+          <h2 class="display reveal reveal-d1" style="margin-top:24px;">Run a full adult store<br><span class="italic gradient-text">without a warehouse.</span></h2>
         </div>
         <div class="bento">
           <div class="bento-cell wide emerald reveal">
             <div class="inner"><p class="bento-eyebrow">Real-time sync</p><h3>Never oversell. Never refund out-of-stock.</h3><p>Every supplier's stock, price, and detail flows into your store the instant it changes. Sub-minute updates across every channel, 24/7.</p></div>
           </div>
           <div class="bento-cell lime reveal reveal-d1">
-            <div class="inner"><p class="bento-eyebrow">300+ brands</p><h3>The catalog competitors wish they had.</h3><p>PAX, Puffco, Cookies, GRAV, RAW, Dr. Dabber and hundreds more. Import curated collections in one click.</p></div>
+            <div class="inner"><p class="bento-eyebrow">300+ brands</p><h3>The catalog competitors wish they had.</h3><p>LELO, We-Vibe, Satisfyer, Womanizer, Fleshlight, Sliquid and hundreds more. Import curated collections in one click.</p></div>
           </div>
           <div class="bento-cell dark reveal">
             <div class="inner"><p class="bento-eyebrow">Blind dropship</p><h3>Ships under your brand.</h3><p>Orders route to the right supplier and ship blind under your brand. Your customer never sees our name.</p></div>
@@ -97,10 +97,10 @@ $brands_url  = home_url( '/brands' );
     <section class="sec">
       <div class="wrap wrap-tight center">
         <svg viewBox="0 0 24 24" width="48" height="48" class="reveal" style="color:var(--green-xl);margin:0 auto 32px;"><path fill="currentColor" d="M10 7L8 11v6h6v-6h-3l2-4zm8 0l-2 4v6h6v-6h-3l2-4z"/></svg>
-        <p class="reveal reveal-d1" style="font-family:var(--display);font-size:clamp(1.5rem,3vw,2.4rem);font-weight:500;line-height:1.3;letter-spacing:-.02em;color:var(--ink);">"We added 2,000 SKUs in a weekend and tripled our vape category revenue in 90 days. The auto-sync means we never oversell."</p>
+        <p class="reveal reveal-d1" style="font-family:var(--display);font-size:clamp(1.5rem,3vw,2.4rem);font-weight:500;line-height:1.3;letter-spacing:-.02em;color:var(--ink);">"We added 2,000 SKUs in a weekend and tripled our intimacy category revenue in 90 days. The auto-sync means we never oversell."</p>
         <div class="reveal reveal-d2" style="display:flex;align-items:center;gap:16px;justify-content:center;margin-top:36px;">
           <div style="width:52px;height:52px;border-radius:50%;background:var(--green);color:#fff;display:grid;place-items:center;font-family:var(--display);font-weight:600;">JR</div>
-          <div style="text-align:left;"><strong style="font-size:1.1rem;display:block;">Jess Ramirez</strong><span style="color:var(--ink-mute);">Owner, Cloud Peak Vapes</span></div>
+          <div style="text-align:left;"><strong style="font-size:1.1rem;display:block;">Jess Ramirez</strong><span style="color:var(--ink-mute);">Owner, Velvet & Lace Boutique</span></div>
         </div>
       </div>
     </section>
@@ -117,7 +117,7 @@ $brands_url  = home_url( '/brands' );
         <div class="bento-cell full reveal" style="background:linear-gradient(135deg,var(--green-d),var(--green));border:1px solid var(--green-l);min-height:auto;">
           <div class="inner" style="padding:clamp(48px,7vw,80px);text-align:center;align-items:center;">
             <h2 class="display" style="font-size:clamp(2rem,4vw,3.4rem);color:#fff;">Stock every brand.<br><span class="italic">Hold zero inventory.</span></h2>
-            <p class="lede" style="max-width:560px;margin:24px auto 0;">Join hundreds of retailers dropshipping the biggest smoke, vape &amp; hemp brands.</p>
+            <p class="lede" style="max-width:560px;margin:24px auto 0;">Join hundreds of retailers dropshipping the biggest adult, intimacy &amp; wellness brands.</p>
             <div class="hero-actions" style="justify-content:center;margin-top:36px;">
               <a href="https:///signup" class="btn btn-lime btn-lg" style="background:#fff;color:var(--green);">Start free trial</a>
               <a href="<?php echo esc_url( $pricing_url ); ?>" class="btn btn-outline btn-lg" style="border-color:rgba(255,255,255,.3);color:#fff;">View pricing</a>

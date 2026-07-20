@@ -24,8 +24,8 @@ $retail_url = home_url( '/retailers' );
       <div class="ph-smoke"><div class="ph-blob b1"></div><div class="ph-blob b2"></div><div class="ph-blob b3"></div></div>
       <div class="ph-inner center">
         <p class="eyebrow reveal" style="justify-content:center;">About ProductPro</p>
-        <h1 class="display reveal reveal-d1" style="margin:24px 0;">One marketplace.<br><span class="italic gradient-text">Every smoke shop.</span></h1>
-        <p class="lede reveal reveal-d2" style="max-width:640px;margin:0 auto;">ProductPro connects retailers and suppliers in the smoke, vape, and hemp industry &mdash; one integration, hundreds of brands, real-time order sync.</p>
+        <h1 class="display reveal reveal-d1" style="margin:24px 0;">One marketplace.<br><span class="italic gradient-text">Every adult store.</span></h1>
+        <p class="lede reveal reveal-d2" style="max-width:640px;margin:0 auto;">ProductPro connects retailers and suppliers in the adult, intimacy, and wellness industry &mdash; one integration, hundreds of brands, real-time order sync.</p>
       </div>
     </section>
 
@@ -33,7 +33,7 @@ $retail_url = home_url( '/retailers' );
     <section class="sec-sm" style="background:#13c27b;">
       <div class="wrap">
         <div class="scale-stats">
-          <div class="ss reveal"><div class="n" style="color:#000;font-weight:800;"><span data-count="20000" data-suffix="+">0</span></div><div class="l" style="color:#000;font-weight:600;">Smoke shop products</div></div>
+          <div class="ss reveal"><div class="n" style="color:#000;font-weight:800;"><span data-count="20000" data-suffix="+">0</span></div><div class="l" style="color:#000;font-weight:600;">Adult store products</div></div>
           <div class="ss reveal reveal-d1"><div class="n" style="color:#000;font-weight:800;"><span data-count="300" data-suffix="+">0</span></div><div class="l" style="color:#000;font-weight:600;">Top brands</div></div>
           <div class="ss reveal reveal-d2"><div class="n" style="color:#000;font-weight:800;">Real Time</div><div class="l" style="color:#000;font-weight:600;">Order sync</div></div>
           <div class="ss reveal reveal-d3"><div class="n" style="color:#000;font-weight:800;">$0</div><div class="l" style="color:#000;font-weight:600;">Transaction fees</div></div>
@@ -58,7 +58,7 @@ $retail_url = home_url( '/retailers' );
           <div class="bento-cell dark reveal reveal-d1">
             <div class="inner">
               <h3>For Suppliers &amp; Wholesalers</h3>
-              <p>List your catalog once and reach hundreds of smoke shops and online retailers. Fully automated order management, easy catalog import.</p>
+              <p>List your catalog once and reach hundreds of adult stores and online retailers. Fully automated order management, easy catalog import.</p>
             </div>
           </div>
           <div class="bento-cell dark reveal reveal-d2">
@@ -76,9 +76,9 @@ $retail_url = home_url( '/retailers' );
       <div class="wrap wrap-tight center">
         <p class="eyebrow reveal" style="justify-content:center;">What retailers say</p>
         <blockquote class="reveal reveal-d1" style="font-family:var(--display);font-size:clamp(1.4rem,3vw,2.1rem);font-weight:500;letter-spacing:-.02em;line-height:1.35;margin-top:24px;">
-          &ldquo;I am new to the business and was a bit apprehensive until I found Smoke Drop. They have a great catalogue of quality products and an extremely user-friendly set-up. Maybe even better than that, is their customer service.&rdquo;
+          &ldquo;I am new to the business and was a bit apprehensive until I found ProductPro. They have a great catalogue of quality products and an extremely user-friendly set-up. Maybe even better than that, is their customer service.&rdquo;
         </blockquote>
-        <p class="reveal reveal-d2" style="margin-top:20px;color:var(--ink-mute);"><strong style="color:var(--ink);">Session Glass</strong> &mdash; Online Retailer</p>
+        <p class="reveal reveal-d2" style="margin-top:20px;color:var(--ink-mute);"><strong style="color:var(--ink);">Rose &amp; Ember</strong> &mdash; Online Retailer</p>
       </div>
     </section>
 
@@ -91,11 +91,11 @@ $retail_url = home_url( '/retailers' );
             <h2 class="tool-name" style="font-size:2.2rem;">Built for the industry.</h2>
           </div>
           <div class="tool-body">
-            <p class="lede" style="font-size:1.05rem;color:var(--ink);">We&rsquo;re not a generic dropshipping platform bolted onto the smoke and vape category. ProductPro was built from the ground up for this industry &mdash; headshop, vape, CBD, hemp, glass, and accessories.</p>
+            <p class="lede" style="font-size:1.05rem;color:var(--ink);">We&rsquo;re not a generic dropshipping platform bolted onto the intimacy and wellness category. ProductPro was built from the ground up for this industry &mdash; vibrators, lingerie, lubricants, bondage, wellness, and accessories.</p>
             <div class="tool-checks">
               <div class="tool-check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg><span>The deepest catalog in the category &mdash; 300+ brands, 20,000+ products</span></div>
               <div class="tool-check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg><span>Native integrations with Shopify, WooCommerce, and BigCommerce</span></div>
-              <div class="tool-check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg><span>Real industry knowledge &mdash; we understand smoke shop supply chains</span></div>
+              <div class="tool-check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg><span>Real industry knowledge &mdash; we understand adult store supply chains</span></div>
               <div class="tool-check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg><span>No transaction fees or commissions on your sales</span></div>
             </div>
           </div>

@@ -3,7 +3,7 @@
  * Template Name: For Wholesalers
  * Template Post Type: page
  *
- * B2B wholesale-buyer landing page — for smoke shops stocking local
+ * B2B wholesale-buyer landing page — for adult stores stocking local
  * inventory at wholesale pricing. Distinct from /suppliers (the
  * dropship supplier page). Assign to the Page mapped to /wholesalers/.
  *
@@ -29,7 +29,7 @@ $check_svg  = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke
         <span class="line-mask"><span>Buy wholesale.</span></span>
         <span class="line-mask line-mask-d1"><span>Stock your <em class="italic gradient-text">shelves.</em></span></span>
       </h1>
-      <p class="lede reveal reveal-d3" style="max-width:620px;">Purchase products at wholesale prices with <strong style="color:var(--ink);">no minimum order amount.</strong> Stock your smoke shop, vape store, or dispensary with 20,000+ products from 300+ brands &mdash; order exactly what you need, when you need it.</p>
+      <p class="lede reveal reveal-d3" style="max-width:620px;">Purchase products at wholesale prices with <strong style="color:var(--ink);">no minimum order amount.</strong> Stock your adult store, adult boutique, or intimacy shop with 20,000+ products from 300+ brands &mdash; order exactly what you need, when you need it.</p>
       <div class="hero-actions reveal reveal-d4">
         <a href="<?php echo esc_url( $register ); ?>" class="btn btn-lime btn-lg" data-magnetic>Start buying wholesale</a>
         <a href="<?php echo esc_url( $brands_url ); ?>" class="btn btn-outline btn-lg" data-magnetic>Browse the catalog</a>
@@ -60,7 +60,7 @@ $check_svg  = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke
           <div class="inner"><p class="bento-eyebrow">Transparent margins</p><h3>See wholesale cost upfront.</h3><p>Cost and suggested retail shown before you buy. Your markup, your call.</p></div>
         </div>
         <div class="bento-cell dark reveal">
-          <div class="inner"><p class="bento-eyebrow">300+ brands</p><h3>The catalog customers ask for.</h3><p>PAX, Puffco, Cookies, GRAV, RAW, Dr. Dabber and hundreds more &mdash; in stock, ready to ship.</p></div>
+          <div class="inner"><p class="bento-eyebrow">300+ brands</p><h3>The catalog customers ask for.</h3><p>LELO, We-Vibe, Satisfyer, Womanizer, Fleshlight, Sliquid and hundreds more &mdash; in stock, ready to ship.</p></div>
         </div>
         <div class="bento-cell wide dark reveal reveal-d1">
           <div class="inner"><p class="bento-eyebrow">USA-based fulfillment</p><h3>Fast, reliable shipping.</h3><p>Orders ship from US warehouses with tracking. Reorder bestsellers in a click when stock runs low.</p>

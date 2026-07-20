@@ -28,7 +28,7 @@
         <div class="foot-grid">
             <div class="foot-brand">
                 <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="brand"><?php echo sdn_logo( 42 ); // phpcs:ignore ?></a>
-                <p>The wholesale and dropshipping platform for the smoke, vape, and hemp industry. Sync 20,000+ products in one click.</p>
+                <p>The wholesale and dropshipping platform for the adult, intimacy, and wellness industry. Sync 20,000+ products in one click.</p>
                 <div class="foot-cta-stack">
     <a href="https://apps.shopify.com/air-waves-apparel" class="foot-mini-cta">
         <span class="fmc-ic"><img src="<?php echo esc_url( home_url( '/wp-content/uploads/2024/01/5f1a58272cd5b8c219db0ba4_shopify-logo.svg' ) ); ?>" alt="Shopify" style="width:30px;height:30px;object-fit:contain;"></span>

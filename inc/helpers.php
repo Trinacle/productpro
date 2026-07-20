@@ -474,7 +474,7 @@ function sdn_platforms() {
             'tagline'   => 'One-click install from the Shopify App Store',
             'install_url'   => 'https://apps.shopify.com/air-waves-apparel',
             'install_label' => 'Install on Shopify',
-            'desc'      => 'The ProductPro Shopify app gives you everything you need to run a smoke shop dropshipping business. Import 20,000+ products in a few clicks, with automatic inventory sync, blind dropshipping, and order routing to suppliers.',
+            'desc'      => 'The ProductPro Shopify app gives you everything you need to run a adult store dropshipping business. Import 20,000+ products in a few clicks, with automatic inventory sync, blind dropshipping, and order routing to suppliers.',
             'features'  => array(
                 array( 'Import in a few clicks', 'Add curated collections or individual products to your Shopify store instantly.' ),
                 array( 'Real-time inventory sync', 'Stock and price updates flow from suppliers into Shopify in under a minute.' ),

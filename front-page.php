@@ -36,7 +36,7 @@ $sdu = function ( $path ) { return home_url( '/wp-content/uploads/2024/01/' . $p
     <!-- ===== HERO (below the video) ===== -->
     <section class="hero" id="hero">
       <div class="hero-inner">
-        <p class="eyebrow reveal">#1 Online Smoke Shop Dropshipping App</p>
+        <p class="eyebrow reveal">#1 Online Adult Store Dropshipping App</p>
         <h1 class="display-mega">
           <span class="line-mask"><span>The industry</span></span>
           <span class="line-mask line-mask-d1"><span>leading <em class="italic gradient-text">dropship</em></span></span>
@@ -48,23 +48,23 @@ $sdu = function ( $path ) { return home_url( '/wp-content/uploads/2024/01/' . $p
           <span class="hf-prefix">Thousands of</span>
           <div id="flip" class="hf-flip">
             <div>
-              <div>Dab Rigs</div>
-              <div>Pipes</div>
-              <div>Bongs</div>
-              <div>Vaporizers</div>
-              <div>Ashtrays</div>
-              <div>Grinders</div>
-              <div>Vape Pens</div>
-              <div>Gummies</div>
-              <div>Bowls</div>
-              <div>Dab Straws</div>
-              <div>E-Rigs</div>
+              <div>Vibrators</div>
+              <div>Lingerie</div>
+              <div>Lubricants</div>
+              <div>Dildos</div>
+              <div>Couples Toys</div>
+              <div>Massagers</div>
+              <div>Strokers</div>
+              <div>Massage Oils</div>
+              <div>Bondage</div>
+              <div>Bodystockings</div>
+              <div>Cuffs</div>
             </div>
           </div>
           <span class="hf-suffix">Available</span>
         </div>
 
-        <p class="lede reveal reveal-d4">Import over 20,000 smoke shop products to your online store. The dropshipping platform built for smoke shops &mdash; connect to 300+ smoke, vape, hemp and glass brands. Customers order from you. Suppliers ship for you. You keep the margin.</p>
+        <p class="lede reveal reveal-d4">Import over 20,000 adult store products to your online store. The dropshipping platform built for adult stores &mdash; connect to 300+ intimacy, wellness, lingerie, and pleasure brands. Customers order from you. Suppliers ship for you. You keep the margin.</p>
         <div class="hero-actions reveal reveal-d5">
           <a href="https:///signup" class="btn btn-lime btn-lg" data-magnetic>Start Free Trial <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
           <a href="#how" class="btn btn-outline btn-lg" data-magnetic>See how it works</a>
@@ -77,7 +77,7 @@ $sdu = function ( $path ) { return home_url( '/wp-content/uploads/2024/01/' . $p
       <div class="lw-head">
         <span class="lw-eyebrow">The ProductPro Marketplace</span>
         <h2>300+ brands.<br>One integration.</h2>
-        <p>Get instant access to the deepest smoke, vape &amp; hemp catalog in the industry. The brands your customers already ask for &mdash; ready to dropship.</p>
+        <p>Get instant access to the deepest adult, intimacy &amp; wellness catalog in the industry. The brands your customers already ask for &mdash; ready to dropship.</p>
         <div class="lw-stats">
           <div class="lw-stat"><div class="n">300+</div><div class="l">Brands</div></div>
           <div class="lw-stat"><div class="n">20,000+</div><div class="l">Products</div></div>
@@ -111,7 +111,7 @@ $sdu = function ( $path ) { return home_url( '/wp-content/uploads/2024/01/' . $p
     <section class="sec" id="products">
       <div class="wrap center">
         <p class="eyebrow reveal" style="justify-content:center;">Products Available for Dropshipping &amp; Wholesale</p>
-        <h2 class="display reveal reveal-d1" style="margin-top:20px;">Dropship thousands of water pipes,<br>vape, &amp; CBD products, <span class="italic gradient-text">all in one place.</span></h2>
+        <h2 class="display reveal reveal-d1" style="margin-top:20px;">Dropship thousands of vibrators,<br>lingerie, &amp; wellness products, <span class="italic gradient-text">all in one place.</span></h2>
         <p class="lede reveal reveal-d2" style="max-width:620px;margin:28px auto 0;">We carry all the latest items from the top brands. Import products to your online store in just a few clicks, with automatic order syncing with suppliers.</p>
         <div class="feat-grid reveal reveal-d3" style="margin-top:56px;text-align:left;max-width:900px;margin-left:auto;margin-right:auto;">
           <div class="feat-card"><div class="fc-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><polyline points="12 5 19 12 12 19"/></svg></div><h4>Start Selling Today</h4><p>Import to your online store in just few clicks. Automatic order syncing with suppliers. We carry all the latest items from the top brands.</p></div>
@@ -190,7 +190,7 @@ $sdu = function ( $path ) { return home_url( '/wp-content/uploads/2024/01/' . $p
       <div class="wrap">
         <div style="max-width:780px;margin-bottom:72px;">
           <p class="eyebrow reveal">The platform</p>
-          <h2 class="display reveal reveal-d1" style="margin-top:24px;">Built for smoke shops<br><span class="outline-text italic">that want to grow.</span></h2>
+          <h2 class="display reveal reveal-d1" style="margin-top:24px;">Built for adult stores<br><span class="outline-text italic">that want to grow.</span></h2>
         </div>
 
         <div class="bento">
@@ -205,12 +205,12 @@ $sdu = function ( $path ) { return home_url( '/wp-content/uploads/2024/01/' . $p
             <div class="inner">
               <p class="bento-eyebrow">300+ brands</p>
               <h3>The catalog competitors wish they had.</h3>
-              <p>PAX, Puffco, Cookies, GRAV, RAW, Dr. Dabber and hundreds more. Import curated collections in one click.</p>
+              <p>LELO, We-Vibe, Satisfyer, Womanizer, Fleshlight, Sliquid and hundreds more. Import curated collections in one click.</p>
               <div class="bento-tag-row">
-                <span class="bento-tag">Vaporizers</span>
-                <span class="bento-tag">Hemp</span>
-                <span class="bento-tag">Glass</span>
-                <span class="bento-tag">Accessories</span>
+                <span class="bento-tag">Vibrators</span>
+                <span class="bento-tag">Lingerie</span>
+                <span class="bento-tag">Lubricants</span>
+                <span class="bento-tag">Bondage</span>
               </div>
             </div>
           </div>
@@ -261,7 +261,7 @@ $sdu = function ( $path ) { return home_url( '/wp-content/uploads/2024/01/' . $p
     <section class="sec-sm" style="background:#13c27b;">
       <div class="wrap">
         <div class="scale-stats">
-          <div class="ss reveal"><div class="n" style="color:#000;font-weight:800;"><span data-count="20000" data-suffix="+">0</span></div><div class="l" style="color:#000;font-weight:600;">Smoke shop products</div></div>
+          <div class="ss reveal"><div class="n" style="color:#000;font-weight:800;"><span data-count="20000" data-suffix="+">0</span></div><div class="l" style="color:#000;font-weight:600;">Adult store products</div></div>
           <div class="ss reveal reveal-d1"><div class="n" style="color:#000;font-weight:800;"><span data-count="300" data-suffix="+">0</span></div><div class="l" style="color:#000;font-weight:600;">Top brands</div></div>
           <div class="ss reveal reveal-d2"><div class="n" style="color:#000;font-weight:800;"><span data-count="30" data-suffix="+">0</span></div><div class="l" style="color:#000;font-weight:600;">Countries shipped to</div></div>
           <div class="ss reveal reveal-d3"><div class="n" style="color:#000;font-weight:800;">Real Time</div><div class="l" style="color:#000;font-weight:600;">Order sync</div></div>
@@ -309,19 +309,19 @@ $sdu = function ( $path ) { return home_url( '/wp-content/uploads/2024/01/' . $p
         </div>
         <div class="testi-grid">
           <div class="testi-card reveal">
-            <div class="tc-mark">DV</div>
+            <div class="tc-mark">SS</div>
             <blockquote>"I really love you guys. I was having a very difficult time finding the right products to sell and what to sell exactly. I came up on this app and now my shop is flourishing. No complaints so far. Thanks guys"</blockquote>
-            <div class="tc-author"><div><strong>The Darth Vapor</strong><span>Online Retailer</span></div></div>
+            <div class="tc-author"><div><strong>Sensual Supply Co</strong><span>Online Retailer</span></div></div>
           </div>
           <div class="testi-card reveal reveal-d1">
-            <div class="tc-mark" style="background:linear-gradient(145deg,#0a6b3f,#13c27b);">SG</div>
-            <blockquote>"I am new to the business and was a bit apprehensive until I found Smoke Drop. They have a great catalogue of quality products and an extremely user-friendly set-up. Maybe even better than that, is their customer service. I highly recommend this app!"</blockquote>
-            <div class="tc-author"><div><strong>Session Glass</strong><span>Online Retailer</span></div></div>
+            <div class="tc-mark" style="background:linear-gradient(145deg,#0a6b3f,#13c27b);">RE</div>
+            <blockquote>"I am new to the business and was a bit apprehensive until I found ProductPro. They have a great catalogue of quality products and an extremely user-friendly set-up. Maybe even better than that, is their customer service. I highly recommend this app!"</blockquote>
+            <div class="tc-author"><div><strong>Rose & Ember</strong><span>Online Retailer</span></div></div>
           </div>
           <div class="testi-card reveal reveal-d2">
-            <div class="tc-mark" style="background:linear-gradient(145deg,#004122,#0a6b3f);">MR</div>
-            <blockquote>"As someone who uses Smoke Drop to sell on one accounts and dropship from another, this app is great! It helps streamline my dropshipping side of the business and it also lets me find vendor and products quick."</blockquote>
-            <div class="tc-author"><div><strong>My Rolling Tray</strong><span>Online Retailer</span></div></div>
+            <div class="tc-mark" style="background:linear-gradient(145deg,#004122,#0a6b3f);">LL</div>
+            <blockquote>"As someone who uses ProductPro to sell on one accounts and dropship from another, this app is great! It helps streamline my dropshipping side of the business and it also lets me find vendor and products quick."</blockquote>
+            <div class="tc-author"><div><strong>Lace & Luxe</strong><span>Online Retailer</span></div></div>
           </div>
         </div>
         <div class="center reveal reveal-d3" style="margin-top:40px;">
@@ -337,7 +337,7 @@ $sdu = function ( $path ) { return home_url( '/wp-content/uploads/2024/01/' . $p
           <div>
             <p class="eyebrow reveal">Featured products</p>
             <h2 class="h-sec reveal reveal-d1" style="margin-top:18px;">The latest items from<br><span class="italic gradient-text">the top brands.</span></h2>
-            <p class="lede reveal reveal-d2" style="margin-top:18px;max-width:540px;">Browse water pipes, vaporizers, CBD, and accessories. Import to your store with transparent wholesale pricing.</p>
+            <p class="lede reveal reveal-d2" style="margin-top:18px;max-width:540px;">Browse vibrators, lingerie, lubricants, and intimacy essentials. Import to your store with transparent wholesale pricing.</p>
           </div>
           <a href="<?php echo esc_url( $shop_url ); ?>" class="link-arrow reveal reveal-d3">Explore the catalog <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
         </div>
@@ -359,7 +359,7 @@ $sdu = function ( $path ) { return home_url( '/wp-content/uploads/2024/01/' . $p
                 $cat_terms = get_the_terms( $p, 'product_cat' );
                 $cat_text  = ( $cat_terms && ! is_wp_error( $cat_terms ) )
                     ? wp_strip_all_tags( implode( ', ', wp_list_pluck( $cat_terms, 'name' ) ) )
-                    : 'Smoke Shop';
+                        : 'Adult Store';
                 $img      = wp_get_attachment_image_url( $product->get_image_id(), 'woocommerce_thumbnail' ) ?: 'https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=600&q=80';
                 $brands   = wp_get_post_terms( $p, 'product_brand', array( 'fields' => 'names' ) );
                 $brand    = ! empty( $brands ) && ! is_wp_error( $brands ) ? $brands[0] : 'ProductPro';
@@ -384,30 +384,30 @@ $sdu = function ( $path ) { return home_url( '/wp-content/uploads/2024/01/' . $p
             ?>
             <div class="market">
               <a href="<?php echo esc_url( $brands_url ); ?>" class="market-card reveal" style="text-decoration:none;color:inherit;">
-                <div class="mimg"><span class="flag">&#127482;&#127480; USA</span><img src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=600&q=80" alt="Vessel product" loading="lazy"></div>
-                <div class="mbody"><span class="mbrand">Vessel</span><h4>Vessel Pipe &mdash; Emerald</h4>
-                  <div class="mprice-row"><div class="mprice"><div class="lbl">Category</div><div class="val" style="font-size:1rem;">Water Pipes</div></div><div class="margin"><strong>View</strong>wholesale</div></div>
+                <div class="mimg"><span class="flag">&#127482;&#127480; USA</span><img src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=600&q=80" alt="LELO Sila" loading="lazy"></div>
+                <div class="mbody"><span class="mbrand">LELO</span><h4>Sila Sonic Massager &mdash; Cerise</h4>
+                  <div class="mprice-row"><div class="mprice"><div class="lbl">Category</div><div class="val" style="font-size:1rem;">Vibrators</div></div><div class="margin"><strong>View</strong>wholesale</div></div>
                   <span class="add">View pricing <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
                 </div>
               </a>
               <a href="<?php echo esc_url( $brands_url ); ?>" class="market-card reveal reveal-d1" style="text-decoration:none;color:inherit;">
-                <div class="mimg"><span class="flag">&#127482;&#127480; USA</span><img src="https://images.unsplash.com/photo-1604881991720-f91add269bed?w=600&q=80" alt="Storz &amp; Bickel" loading="lazy"></div>
-                <div class="mbody"><span class="mbrand">Storz &amp; Bickel</span><h4>Hybrid Volcano</h4>
-                  <div class="mprice-row"><div class="mprice"><div class="lbl">Category</div><div class="val" style="font-size:1rem;">Vaporizers</div></div><div class="margin"><strong>View</strong>wholesale</div></div>
+                <div class="mimg"><span class="flag">&#127482;&#127480; USA</span><img src="https://images.unsplash.com/photo-1604881991720-f91add269bed?w=600&q=80" alt="We-Vibe" loading="lazy"></div>
+                <div class="mbody"><span class="mbrand">We-Vibe</span><h4>Chorus Couples Vibrator</h4>
+                  <div class="mprice-row"><div class="mprice"><div class="lbl">Category</div><div class="val" style="font-size:1rem;">Couples Toys</div></div><div class="margin"><strong>View</strong>wholesale</div></div>
                   <span class="add">View pricing <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
                 </div>
               </a>
               <a href="<?php echo esc_url( $brands_url ); ?>" class="market-card reveal reveal-d2" style="text-decoration:none;color:inherit;">
-                <div class="mimg"><span class="flag">&#127482;&#127480; USA</span><img src="https://images.unsplash.com/photo-1558591710-4b4a1ae0f04d?w=600&q=80" alt="GRAV" loading="lazy"></div>
-                <div class="mbody"><span class="mbrand">GRAV</span><h4>Long Hammer Hand Pipe</h4>
-                  <div class="mprice-row"><div class="mprice"><div class="lbl">Category</div><div class="val" style="font-size:1rem;">Glass</div></div><div class="margin"><strong>View</strong>wholesale</div></div>
+                <div class="mimg"><span class="flag">&#127482;&#127480; USA</span><img src="https://images.unsplash.com/photo-1558591710-4b4a1ae0f04d?w=600&q=80" alt="Sliquid" loading="lazy"></div>
+                <div class="mbody"><span class="mbrand">Sliquid</span><h4>Silk Hybrid Lubricant</h4>
+                  <div class="mprice-row"><div class="mprice"><div class="lbl">Category</div><div class="val" style="font-size:1rem;">Lubricants</div></div><div class="margin"><strong>View</strong>wholesale</div></div>
                   <span class="add">View pricing <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
                 </div>
               </a>
               <a href="<?php echo esc_url( $brands_url ); ?>" class="market-card reveal reveal-d3" style="text-decoration:none;color:inherit;">
-                <div class="mimg"><span class="flag">&#127482;&#127480; USA</span><img src="https://images.unsplash.com/photo-1583394838336-acd977736f90?w=600&q=80" alt="Pulsar" loading="lazy"></div>
-                <div class="mbody"><span class="mbrand">Pulsar</span><h4>APX Vape V3 Kit</h4>
-                  <div class="mprice-row"><div class="mprice"><div class="lbl">Category</div><div class="val" style="font-size:1rem;">Vaporizers</div></div><div class="margin"><strong>View</strong>wholesale</div></div>
+                <div class="mimg"><span class="flag">&#127482;&#127480; USA</span><img src="https://images.unsplash.com/photo-1583394838336-acd977736f90?w=600&q=80" alt="Sportsheets" loading="lazy"></div>
+                <div class="mbody"><span class="mbrand">Sportsheets</span><h4>Under-the-Bed Restraint System</h4>
+                  <div class="mprice-row"><div class="mprice"><div class="lbl">Category</div><div class="val" style="font-size:1rem;">Bondage</div></div><div class="margin"><strong>View</strong>wholesale</div></div>
                   <span class="add">View pricing <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
                 </div>
               </a>
@@ -465,10 +465,10 @@ $sdu = function ( $path ) { return home_url( '/wp-content/uploads/2024/01/' . $p
             ?>
             <div class="blog-grid">
               <a href="<?php echo esc_url( $blog_url ); ?>" class="blog-card reveal">
-                <div class="thumb"><span class="cat">Dropshipping</span><img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&q=80" alt="Smoke shop dropshipping" loading="lazy"></div>
+                <div class="thumb"><span class="cat">Dropshipping</span><img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&q=80" alt="Adult store dropshipping" loading="lazy"></div>
                 <div class="body">
                   <div class="meta"><span>Jun 24, 2026</span><span>8 min</span></div>
-                  <h4>The 2026 Smoke Shop Dropshipping Playbook</h4>
+                  <h4>The 2026 Adult Store Dropshipping Playbook</h4>
                   <p>How to launch a 1,000-SKU store this weekend with zero inventory.</p>
                   <span class="more">Read more <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
                 </div>
@@ -483,11 +483,11 @@ $sdu = function ( $path ) { return home_url( '/wp-content/uploads/2024/01/' . $p
                 </div>
               </a>
               <a href="<?php echo esc_url( $blog_url ); ?>" class="blog-card reveal reveal-d2">
-                <div class="thumb"><span class="cat">Brand Spotlight</span><img src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=800&q=80" alt="PAX vaporizers" loading="lazy"></div>
+                <div class="thumb"><span class="cat">Brand Spotlight</span><img src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=800&q=80" alt="LELO vibrators" loading="lazy"></div>
                 <div class="body">
                   <div class="meta"><span>Jun 20, 2026</span><span>5 min</span></div>
-                  <h4>Why PAX Still Dominates the Vaporizer Category</h4>
-                  <p>How heritage hardware brands keep winning, and how to stock them.</p>
+                  <h4>Why LELO Still Dominates the Vibrator Category</h4>
+                  <p>How heritage pleasure brands keep winning, and how to stock them.</p>
                   <span class="more">Read more <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
                 </div>
               </a>
@@ -554,7 +554,7 @@ $sdu = function ( $path ) { return home_url( '/wp-content/uploads/2024/01/' . $p
     <section class="sec" id="integrations">
       <div class="wrap center">
         <p class="eyebrow reveal" style="justify-content:center;">Shopping Cart Integrations</p>
-        <h2 class="display reveal reveal-d1" style="margin-top:20px;">Import over 20,000 smoke shop<br>products to <span class="italic gradient-text">your online store.</span></h2>
+        <h2 class="display reveal reveal-d1" style="margin-top:20px;">Import over 20,000 adult store<br>products to <span class="italic gradient-text">your online store.</span></h2>
         <div class="integrations-row reveal reveal-d2" style="margin-top:56px;">
           <?php sdn_integration_bubbles(); ?>
         </div>
@@ -587,19 +587,19 @@ $sdu = function ( $path ) { return home_url( '/wp-content/uploads/2024/01/' . $p
         </div>
         <div class="testi-grid">
           <div class="testi-card reveal">
-            <div class="tc-mark">DV</div>
+            <div class="tc-mark">SS</div>
             <blockquote>"I really love you guys. I was having a very difficult time finding the right products to sell and what to sell exactly. I came up on this app and now my shop is flourishing. No complaints so far. Thanks guys"</blockquote>
-            <div class="tc-author"><div><strong>The Darth Vapor</strong><span>Online Retailer</span></div></div>
+            <div class="tc-author"><div><strong>Sensual Supply Co</strong><span>Online Retailer</span></div></div>
           </div>
           <div class="testi-card reveal reveal-d1">
-            <div class="tc-mark" style="background:linear-gradient(145deg,#0a6b3f,#13c27b);">SG</div>
-            <blockquote>"I am new to the business and was a bit apprehensive until I found Smoke Drop. They have a great catalogue of quality products and an extremely user-friendly set-up. Maybe even better than that, is their customer service. I highly recommend this app!"</blockquote>
-            <div class="tc-author"><div><strong>Session Glass</strong><span>Online Retailer</span></div></div>
+            <div class="tc-mark" style="background:linear-gradient(145deg,#0a6b3f,#13c27b);">RE</div>
+            <blockquote>"I am new to the business and was a bit apprehensive until I found ProductPro. They have a great catalogue of quality products and an extremely user-friendly set-up. Maybe even better than that, is their customer service. I highly recommend this app!"</blockquote>
+            <div class="tc-author"><div><strong>Rose & Ember</strong><span>Online Retailer</span></div></div>
           </div>
           <div class="testi-card reveal reveal-d2">
-            <div class="tc-mark" style="background:linear-gradient(145deg,#004122,#0a6b3f);">MR</div>
-            <blockquote>"As someone who uses Smoke Drop to sell on one accounts and dropship from another, this app is great! It helps streamline my dropshipping side of the business and it also lets me find vendor and products quick."</blockquote>
-            <div class="tc-author"><div><strong>My Rolling Tray</strong><span>Online Retailer</span></div></div>
+            <div class="tc-mark" style="background:linear-gradient(145deg,#004122,#0a6b3f);">LL</div>
+            <blockquote>"As someone who uses ProductPro to sell on one accounts and dropship from another, this app is great! It helps streamline my dropshipping side of the business and it also lets me find vendor and products quick."</blockquote>
+            <div class="tc-author"><div><strong>Lace & Luxe</strong><span>Online Retailer</span></div></div>
           </div>
         </div>
       </div>

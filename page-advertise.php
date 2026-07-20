@@ -91,7 +91,7 @@ $sdn_all_in_save   = $sdn_all_in_total - $sdn_all_in_price; // 335
     <div class="ph-inner center">
       <p class="eyebrow reveal" style="justify-content:center;">Advertise with ProductPro</p>
       <h1 class="display reveal reveal-d1" style="margin:24px 0;">Sell more product,<br><span class="italic gradient-text">faster.</span></h1>
-      <p class="lede reveal reveal-d2" style="max-width:640px;margin:0 auto;">Put your brand and products in front of smoke shop retailers the moment they are sourcing. Featured placements, holiday promotions, and dedicated spotlights &mdash; real packages, transparent pricing.</p>
+      <p class="lede reveal reveal-d2" style="max-width:640px;margin:0 auto;">Put your brand and products in front of adult store retailers the moment they are sourcing. Featured placements, holiday promotions, and dedicated spotlights &mdash; real packages, transparent pricing.</p>
       <div class="hero-actions reveal reveal-d3" style="justify-content:center;margin-top:32px;">
         <a href="#packages" class="btn btn-lime btn-lg">View packages</a>
         <a href="<?php echo esc_url( $contact_url ); ?>" class="btn btn-outline btn-lg">Talk to Sales</a>
@@ -114,7 +114,7 @@ $sdn_all_in_save   = $sdn_all_in_total - $sdn_all_in_price; // 335
           <div class="inner"><p class="bento-eyebrow">For Brands</p><h3>Exposure &amp; growth.</h3><p>Get discovered by new retailers who have never heard of you, and stay top-of-mind with the ones who have. Build brand recognition across the network and grow your retail footprint.</p></div>
         </div>
         <div class="bento-cell dark reveal">
-          <div class="inner"><p class="bento-eyebrow">Niche audience</p><h3>Smoke, vape &amp; hemp.</h3><p>100% of our audience is in your category. No wasted spend on generic marketplaces full of tire-kickers.</p></div>
+          <div class="inner"><p class="bento-eyebrow">Niche audience</p><h3>Adult, intimacy &amp; wellness.</h3><p>100% of our audience is in your category. No wasted spend on generic marketplaces full of tire-kickers.</p></div>
         </div>
       </div>
     </div>
@@ -125,17 +125,17 @@ $sdn_all_in_save   = $sdn_all_in_total - $sdn_all_in_price; // 335
     <div class="wrap wrap-tight center">
       <p class="eyebrow reveal" style="justify-content:center;">Seasonal demand</p>
       <h2 class="display reveal reveal-d1" style="margin-top:24px;">Be there on the<br><span class="italic gradient-text">biggest selling days.</span></h2>
-      <p class="lede reveal reveal-d2" style="max-width:600px;margin:24px auto 0;">The smoke industry has massive seasonal spikes. Our Holiday Promo puts you in front of buyers exactly when demand peaks.</p>
+      <p class="lede reveal reveal-d2" style="max-width:600px;margin:24px auto 0;">The adult industry has massive seasonal spikes. Our Holiday Promo puts you in front of buyers exactly when demand peaks.</p>
       <div class="holiday-grid reveal reveal-d3" style="margin-top:48px;">
         <div class="holiday-card">
-          <span class="holiday-tag">April 20</span>
-          <h3>420</h3>
-          <p>The biggest day in cannabis culture &mdash; our highest-traffic week of the year.</p>
+          <span class="holiday-tag">February</span>
+          <h3>Valentine&rsquo;s Day</h3>
+          <p>The biggest intimacy retail event of the year &mdash; our highest-traffic week for couples toys, lingerie, and gifts.</p>
         </div>
         <div class="holiday-card">
-          <span class="holiday-tag">July 10</span>
-          <h3>710</h3>
-          <p>Concentrate appreciation day &mdash; peak demand for dabs, wax, and extract gear.</p>
+          <span class="holiday-tag">September</span>
+          <h3>International Lover&rsquo;s Month</h3>
+          <p>Peak demand for romance and intimacy essentials &mdash; lingerie, massage, lubricants, and novelty gifts.</p>
         </div>
         <div class="holiday-card">
           <span class="holiday-tag">November</span>
@@ -145,7 +145,7 @@ $sdn_all_in_save   = $sdn_all_in_total - $sdn_all_in_price; // 335
         <div class="holiday-card">
           <span class="holiday-tag">Year-round</span>
           <h3>+ more</h3>
-          <p>Cyber Monday, Green Wednesday, harvest season, and new-product launch windows.</p>
+          <p>Cyber Monday, Sweetest Day, honeymoon and bridal season, and new-product launch windows.</p>
         </div>
       </div>
     </div>

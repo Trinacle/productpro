@@ -15,12 +15,12 @@ if ( ! defined( 'ABSPATH' ) ) exit;
 function sdn_brand_niche( $brand_name ) {
     $name = strtolower( $brand_name );
     $niches = array(
-        'vaporizers'      => array( 'pax', 'puffco', 'dynavap', 'arizer', 'davinci', 'firefly', 'g pen', 'gpen', 'atmos', 'boundless', 'crafty', 'mighty', 'vape', 'vapor', 'xvape', 'vapmod', 'vapir', 'kandypens', 'airvape', 'geekvape', 'evolv', 'yocan', 'storz', 'stundenglass', 'cloudious', 'focus v', 'dr. dabber', 'dr dabber', 'hitoki', 'pulsar' ),
-        'cbd & hemp'      => array( 'cbd', 'hemp', 'cbn', 'cbg', 'thc', 'delta', 'elfthc', '3chi', 'dozo', 'exodus', 'modus', 'hiXotic', 'just cbd', 'cbdmd', 'cbd daily', 'green roads', 'munchies', 'urb', 'wnc cbd', 'indacloud', 'zoetic', 'mitra', 'vivazen', 'kratom', 'mit45', 'hush', 'sweet lyfe', 'hydroxie', 'hyphoria' ),
-        'glass & rigs'    => array( 'grav', 'empire glass', 'empire', 'cheech', 'mj arsenal', 'mj', 'dablabz', 'daze glass', 'dopezilla', 'softglass', 'diamond glass', 'calibear', 'groove glass', 'hillside glass', 'glass house', 'smoke', 'roor', 'zob', 'afm', 'afg', 'mathemat', 'piranha', 'cali crusher', 'grav labs', 'horny', 'maverick', 'tbwo' ),
-        'rolling papers'  => array( 'raw', 'ocb', 'elements', 'zigzag', 'zig zag', 'juicy', 'blazy', 'randy', 'kushkards', 'twisted hemp', 'bob marley', 'high hemp', 'revelry', 'g-rollz', 'job', 'benji', 'OCB' ),
-        'accessories'     => array( 'smokebuddy', 'smokezilla', 'boveda', 'integra', 'cvault', 'stashlogix', 'ryot', 'dime bags', ' Kannastor', 'santa cruz', 'sharpstone', 'cali crusher', 'grateful', 'stash', 'lock', 'canlock' ),
-        'cbd'             => array( 'cbd', 'hemp', 'canna' ),
+        'vibrators & toys'     => array( 'lelo', 'we-vibe', 'we vibe', 'satisfyer', 'womanizer', 'lovense', 'blush', 'dame', 'hot octopuss', 'happy rabbit', 'tenga', 'pipedream', 'cal exotics', 'calexotics', 'screaming o', 'lovehoney', 'adam & eve', 'adameve', 'wish', 'arcwave', 'satisfyer', 'romp', 'mysteryvibe', 'Fun Factory', 'fun factory', 'key', 'jopen', 'lush', 'hush', 'nova', 'osé' ),
+        'lingerie & apparel'   => array( 'dreamgirl', 'leg avenue', 'coquette', 'magic silk', 'rene rofe', 'male power', 'malebasics', 'kixies', 'liberator', 'shirley of hollywood', 'elegantly_scandalous', 'intimate ammo', 'oh la la cheri', ' ella mccguire', 'secrets in lace', 'coquette', 'honey dollz', 'mapale', 'dancing' ),
+        'lubricants & wellness'=> array( 'sliquid', 'pjur', 'astroglide', 'system jo', 'jo', 'intimate earth', 'coconu', 'good clean love', 'screaming o', 'wicked', 'wicked sensual', 'wet', 'id glide', 'id', 'swiss navy', 'k-y', 'ky', 'uberlube', 'uber', 'maintain', 'promescent', 'replens', 'lubricant', 'moist' ),
+        'men\'s toys'          => array( 'fleshlight', 'tenga', 'pipedream', 'autoblow', 'njoy', 'doxy', 'arcwave', 'bathmate', 'pump', 'edge', 'mangasm', 'roxoff', 'lovehoney', 'satisfyer', 'manstroke', 'toys for men' ),
+        'bondage & kink'       => array( 'stockroom', 'sportsheets', 'b-vibe', 'prowler', 'oxballs', 'spartacus', 'noir handmade', 'bdsm', 'kink', 'restraint', 'cuff', 'fetish', 'bondage', 'leather', 'dominix', 'master series', 'zeus', 'electro', 'satisfyer' ),
+        'novelty & gifts'      => array( 'kheper games', 'what do you meme', 'knock knock', 'kushkards', 'pieBox', 'game', 'party', 'novelty', 'bachelorette', 'bachelor', 'gag', 'gift', 'kosmic', 'kheper' ),
     );
 
     foreach ( $niches as $niche => $keywords ) {
@@ -31,7 +31,7 @@ function sdn_brand_niche( $brand_name ) {
         }
     }
     // Default: derive from initials for variety
-    return 'smoke shop';
+    return 'adult store';
 }
 
 /* ---------- Generate unique descriptive copy for a brand ---------- */
@@ -41,35 +41,40 @@ function sdn_brand_description( $brand_name ) {
 
     // Niche-specific intro sentences (varied so each brand reads uniquely)
     $intros = array(
-        'vaporizers'     => array(
-            "$brand_name is a standout in the vaporizer category, known for engineering-driven hardware and a reputation that pulls customers into stores.",
-            "As one of the most-requested vaporizer brands on the ProductPro marketplace, $brand_name pairs premium build quality with the kind of category recognition that drives repeat sales.",
-            "Retailers carrying $brand_name benefit from a brand that buyers actively search for — a proven performer across dry herb, concentrate, and hybrid devices.",
+        'vibrators & toys'     => array(
+            "$brand_name is a standout in the vibrator and pleasure-toy category, known for body-safe engineering and a reputation that pulls shoppers into stores.",
+            "As one of the most-requested intimacy brands on the ProductPro marketplace, $brand_name pairs premium build quality with the kind of category recognition that drives repeat sales.",
+            "Retailers carrying $brand_name benefit from a brand that buyers actively search for — a proven performer across external, internal, and couples toys.",
         ),
-        'cbd & hemp'     => array(
-            "$brand_name is a Farm Bill compliant hemp and CBD brand carried by ProductPro, offering flower, prerolls, edibles, and concentrates that move fast in today's market.",
-            "With cannabinoid products from $brand_name, retailers tap into one of the fastest-growing verticals — fully compliant, lab-tested, and dropship-ready.",
-            "$brand_name brings a thoughtfully formulated CBD and hemp lineup to the marketplace, engineered for the customers already asking for it by name.",
+        'lingerie & apparel'   => array(
+            "$brand_name is a sought-after lingerie and intimate apparel brand carried by ProductPro, offering pieces that turn first-time browsers into loyal repeat customers.",
+            "As an apparel specialist on the ProductPro marketplace, $brand_name delivers the statement pieces that anchor a boutique's display and drive impulse add-ons.",
+            "$brand_name's designs are built to be photographed and shared, giving retailers products that market themselves on social and in-store.",
         ),
-        'glass & rigs'   => array(
-            "$brand_name crafts sought-after glass — from water pipes and dab rigs to hand pipes — with the kind of artistry that turns first-time browsers into loyal collectors.",
-            "As a glass specialist on the ProductPro marketplace, $brand_name delivers the statement pieces that anchor a headshop's display and drive impulse add-ons.",
-            "$brand_name's glasswork is built to be photographed and shared, giving retailers products that market themselves on social and in-store.",
+        'lubricants & wellness'=> array(
+            "$brand_name is a premium lubricant and intimate wellness brand carried by ProductPro, offering body-safe formulas that move fast in today's market.",
+            "With wellness products from $brand_name, retailers tap into one of the fastest-growing verticals — body-safe, thoughtfully formulated, and dropship-ready.",
+            "$brand_name brings a thoughtfully formulated lubricant and wellness lineup to the marketplace, engineered for the customers already asking for it by name.",
         ),
-        'rolling papers' => array(
-            "$brand_name is a rolling-paper and wraps staple — the high-velocity, high-margin consumables that every smoke shop restocks weekly.",
-            "Carrying $brand_name means stocking the papers, cones, and wraps your customers already reach for, with wholesale pricing that protects your margin.",
-            "$brand_name brings decades of rolling-category heritage to the marketplace, with the consistency and brand recognition that keeps shelves turning.",
+        'men\'s toys'          => array(
+            "$brand_name is a staple in the men's pleasure category — the high-velocity, high-margin products that every adult store restocks weekly.",
+            "Carrying $brand_name means stocking the strokers, sleeves, and pumps your customers already reach for, with wholesale pricing that protects your margin.",
+            "$brand_name brings decades of category heritage to the marketplace, with the consistency and brand recognition that keeps shelves turning.",
         ),
-        'accessories'    => array(
-            "$brand_name makes the accessories that complete every purchase — grinders, storage, odor control, and tools that round out a basket.",
-            "As a ProductPro accessories partner, $brand_name delivers the high-turn essentials that lift average order value without eating shelf space.",
-            "$brand_name's accessories solve the everyday problems smokers have, which is exactly why they sell through again and again.",
+        'bondage & kink'       => array(
+            "$brand_name makes the bondage and kink accessories that complete every purchase — restraints, impact toys, and cuffs that round out a basket.",
+            "As a ProductPro kink partner, $brand_name delivers the high-turn essentials that lift average order value without eating shelf space.",
+            "$brand_name's accessories solve the everyday desires shoppers have, which is exactly why they sell through again and again.",
         ),
-        'smoke shop'     => array(
-            "$brand_name is part of the ProductPro marketplace — a curated, dropship-ready catalog of the brands smoke shop customers already ask for.",
+        'novelty & gifts'      => array(
+            "$brand_name is a go-to for adult novelty and gifts — the high-velocity, high-margin items that every adult store restocks for every party season.",
+            "Carrying $brand_name means stocking the games, cards, and gag gifts your customers already reach for, with wholesale pricing that protects your margin.",
+            "$brand_name brings years of novelty-category heritage to the marketplace, with the consistency and brand recognition that keeps shelves turning.",
+        ),
+        'adult store'          => array(
+            "$brand_name is part of the ProductPro marketplace — a curated, dropship-ready catalog of the brands intimacy product shoppers already ask for.",
             "Retailers dropshipping $brand_name get instant access to a vetted supplier with automatic inventory sync and blind shipping under their own brand.",
-            "$brand_name rounds out the ProductPro catalog with products built for the modern smoke, vape, and hemp retailer.",
+            "$brand_name rounds out the ProductPro catalog with products built for the modern adult, intimacy, and wellness retailer.",
         ),
     );
 

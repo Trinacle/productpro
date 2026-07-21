@@ -242,7 +242,7 @@ $sdu = function ( $path ) { return home_url( '/wp-content/uploads/2024/01/' . $p
               <h3>Know your winners.</h3>
               <p>Profit per SKU, best-sellers, reorder trends. Double down on what sells.</p>
               <div class="bento-visual">
-                <svg viewBox="0 0 360 110" style="width:100%;max-width:320px;"><g><rect x="0" y="60" width="40" height="50" rx="5" fill="rgba(19,194,123,.25)"/><rect x="50" y="40" width="40" height="70" rx="5" fill="rgba(19,194,123,.4)"/><rect x="100" y="20" width="40" height="90" rx="5" fill="rgba(19,194,123,.6)"/><rect x="150" y="35" width="40" height="75" rx="5" fill="rgba(19,194,123,.45)"/><rect x="200" y="10" width="40" height="100" rx="5" fill="var(--green-xl)"/><rect x="250" y="50" width="40" height="60" rx="5" fill="rgba(19,194,123,.35)"/><rect x="300" y="25" width="40" height="85" rx="5" fill="rgba(19,194,123,.55)"/></g></svg>
+                <svg viewBox="0 0 360 110" style="width:100%;max-width:320px;"><g><rect x="0" y="60" width="40" height="50" rx="5" fill="rgba(229,93,92,.25)"/><rect x="50" y="40" width="40" height="70" rx="5" fill="rgba(229,93,92,.4)"/><rect x="100" y="20" width="40" height="90" rx="5" fill="rgba(229,93,92,.6)"/><rect x="150" y="35" width="40" height="75" rx="5" fill="rgba(229,93,92,.45)"/><rect x="200" y="10" width="40" height="100" rx="5" fill="var(--green-xl)"/><rect x="250" y="50" width="40" height="60" rx="5" fill="rgba(229,93,92,.35)"/><rect x="300" y="25" width="40" height="85" rx="5" fill="rgba(229,93,92,.55)"/></g></svg>
               </div>
             </div>
           </div>
@@ -250,8 +250,8 @@ $sdu = function ( $path ) { return home_url( '/wp-content/uploads/2024/01/' . $p
       </div>
     </section>
 
-    <!-- ===== SCALE STATS BAND (full-width #13c27b, all black text) ===== -->
-    <section class="sec-sm" style="background:#13c27b;">
+    <!-- ===== SCALE STATS BAND (full-width #e55d5c, all black text) ===== -->
+    <section class="sec-sm" style="background:#e55d5c;">
       <div class="wrap">
         <div class="scale-stats">
           <div class="ss reveal"><div class="n" style="color:#000;font-weight:800;"><span data-count="20000" data-suffix="+">0</span></div><div class="l" style="color:#000;font-weight:600;">Adult store products</div></div>
@@ -307,12 +307,12 @@ $sdu = function ( $path ) { return home_url( '/wp-content/uploads/2024/01/' . $p
             <div class="tc-author"><div><strong>Sensual Supply Co</strong><span>Online Retailer</span></div></div>
           </div>
           <div class="testi-card reveal reveal-d1">
-            <div class="tc-mark" style="background:linear-gradient(145deg,#0a6b3f,#13c27b);">RE</div>
+            <div class="tc-mark" style="background:linear-gradient(145deg,#c44551,#e55d5c);">RE</div>
             <blockquote>"I am new to the business and was a bit apprehensive until I found ProductPro. They have a great catalogue of quality products and an extremely user-friendly set-up. Maybe even better than that, is their customer service. I highly recommend this app!"</blockquote>
             <div class="tc-author"><div><strong>Rose & Ember</strong><span>Online Retailer</span></div></div>
           </div>
           <div class="testi-card reveal reveal-d2">
-            <div class="tc-mark" style="background:linear-gradient(145deg,#004122,#0a6b3f);">LL</div>
+            <div class="tc-mark" style="background:linear-gradient(145deg,#8b2935,#c44551);">LL</div>
             <blockquote>"As someone who uses ProductPro to sell on one accounts and dropship from another, this app is great! It helps streamline my dropshipping side of the business and it also lets me find vendor and products quick."</blockquote>
             <div class="tc-author"><div><strong>Lace & Luxe</strong><span>Online Retailer</span></div></div>
           </div>
@@ -585,12 +585,12 @@ $sdu = function ( $path ) { return home_url( '/wp-content/uploads/2024/01/' . $p
             <div class="tc-author"><div><strong>Sensual Supply Co</strong><span>Online Retailer</span></div></div>
           </div>
           <div class="testi-card reveal reveal-d1">
-            <div class="tc-mark" style="background:linear-gradient(145deg,#0a6b3f,#13c27b);">RE</div>
+            <div class="tc-mark" style="background:linear-gradient(145deg,#c44551,#e55d5c);">RE</div>
             <blockquote>"I am new to the business and was a bit apprehensive until I found ProductPro. They have a great catalogue of quality products and an extremely user-friendly set-up. Maybe even better than that, is their customer service. I highly recommend this app!"</blockquote>
             <div class="tc-author"><div><strong>Rose & Ember</strong><span>Online Retailer</span></div></div>
           </div>
           <div class="testi-card reveal reveal-d2">
-            <div class="tc-mark" style="background:linear-gradient(145deg,#004122,#0a6b3f);">LL</div>
+            <div class="tc-mark" style="background:linear-gradient(145deg,#8b2935,#c44551);">LL</div>
             <blockquote>"As someone who uses ProductPro to sell on one accounts and dropship from another, this app is great! It helps streamline my dropshipping side of the business and it also lets me find vendor and products quick."</blockquote>
             <div class="tc-author"><div><strong>Lace & Luxe</strong><span>Online Retailer</span></div></div>
           </div>

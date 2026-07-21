@@ -37,25 +37,25 @@ $sdu = function ( $path ) { return home_url( '/wp-content/uploads/2024/01/' . $p
     <section class="sec" style="background:#fff;color:#1d1d1f;">
       <div class="wrap" style="color:#1d1d1f;">
         <div class="center" style="max-width:760px;margin:0 auto 64px;">
-          <p class="eyebrow reveal" style="justify-content:center;color:#0a6b3f;">How it works</p>
-          <h2 class="display reveal reveal-d1" style="margin-top:20px;color:#1d1d1f;">Start selling in <span style="color:#0a6b3f;">a few clicks.</span></h2>
+          <p class="eyebrow reveal" style="justify-content:center;color:#c44551;">How it works</p>
+          <h2 class="display reveal reveal-d1" style="margin-top:20px;color:#1d1d1f;">Start selling in <span style="color:#c44551;">a few clicks.</span></h2>
         </div>
         <div class="getting-started">
           <div class="gs-card reveal" style="background:#f5f5f7;border-color:#e8e8ed;">
             <span class="gs-num" style="-webkit-text-stroke:1px rgba(0,0,0,.1);">01</span>
-            <div class="gs-ico" style="background:rgba(0,65,34,.1);color:#0a6b3f;border-color:rgba(0,65,34,.2);"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12l2 2 4-4"/><path d="M21 12c0 5-3.5 8-9 10-5.5-2-9-5-9-10V6l9-4 9 4z"/></svg></div>
+            <div class="gs-ico" style="background:rgba(0,65,34,.1);color:#c44551;border-color:rgba(0,65,34,.2);"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12l2 2 4-4"/><path d="M21 12c0 5-3.5 8-9 10-5.5-2-9-5-9-10V6l9-4 9 4z"/></svg></div>
             <h4 style="color:#1d1d1f;">Create your account</h4>
             <p style="color:#6e6e73;">Create a ProductPro account to get started. No credit card required.</p>
           </div>
           <div class="gs-card reveal reveal-d1" style="background:#f5f5f7;border-color:#e8e8ed;">
             <span class="gs-num" style="-webkit-text-stroke:1px rgba(0,0,0,.1);">02</span>
-            <div class="gs-ico" style="background:rgba(0,65,34,.1);color:#0a6b3f;border-color:rgba(0,65,34,.2);"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="6" width="20" height="12" rx="2"/><path d="M6 10v4M10 10v4M14 10v4M18 10v4"/></svg></div>
+            <div class="gs-ico" style="background:rgba(0,65,34,.1);color:#c44551;border-color:rgba(0,65,34,.2);"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="6" width="20" height="12" rx="2"/><path d="M6 10v4M10 10v4M14 10v4M18 10v4"/></svg></div>
             <h4 style="color:#1d1d1f;">Connect your store</h4>
             <p style="color:#6e6e73;">Install the Shopify, WooCommerce, or BigCommerce app and link your account.</p>
           </div>
           <div class="gs-card reveal reveal-d2" style="background:#f5f5f7;border-color:#e8e8ed;">
             <span class="gs-num" style="-webkit-text-stroke:1px rgba(0,0,0,.1);">03</span>
-            <div class="gs-ico" style="background:rgba(0,65,34,.1);color:#0a6b3f;border-color:rgba(0,65,34,.2);"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l1-5h16l1 5"/><path d="M5 9v11h14V9"/></svg></div>
+            <div class="gs-ico" style="background:rgba(0,65,34,.1);color:#c44551;border-color:rgba(0,65,34,.2);"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l1-5h16l1 5"/><path d="M5 9v11h14V9"/></svg></div>
             <h4 style="color:#1d1d1f;">Import and sell</h4>
             <p style="color:#6e6e73;">Import products in a few clicks, set your prices, and start selling.</p>
           </div>
@@ -82,7 +82,7 @@ $sdu = function ( $path ) { return home_url( '/wp-content/uploads/2024/01/' . $p
     </section>
 
     <!-- STATS BAND -->
-    <section class="sec-sm" style="background:#13c27b;">
+    <section class="sec-sm" style="background:#e55d5c;">
       <div class="wrap">
         <div class="scale-stats">
           <div class="ss reveal"><div class="n" style="color:#000;font-weight:800;"><span data-count="20000" data-suffix="+">0</span></div><div class="l" style="color:#000;font-weight:600;">Products</div></div>
@@ -140,8 +140,8 @@ $sdu = function ( $path ) { return home_url( '/wp-content/uploads/2024/01/' . $p
     <!-- WHITE SECTION: Integrations -->
     <section class="sec" style="background:#fff;color:#1d1d1f;">
       <div class="wrap center" style="color:#1d1d1f;">
-        <p class="eyebrow reveal" style="justify-content:center;color:#0a6b3f;">Shopping Cart Integrations</p>
-        <h2 class="display reveal reveal-d1" style="margin-top:20px;color:#1d1d1f;">Import over 20,000 adult store<br>products to <span style="color:#0a6b3f;">your online store.</span></h2>
+        <p class="eyebrow reveal" style="justify-content:center;color:#c44551;">Shopping Cart Integrations</p>
+        <h2 class="display reveal reveal-d1" style="margin-top:20px;color:#1d1d1f;">Import over 20,000 adult store<br>products to <span style="color:#c44551;">your online store.</span></h2>
         <div class="integrations-row reveal reveal-d2" style="margin-top:56px;">
           <?php sdn_integration_bubbles(); ?>
         </div>

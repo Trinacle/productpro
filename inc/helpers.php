@@ -144,6 +144,13 @@ function sdn_brand_logo_for_slug( $slug ) {
         }
     }
 
+    // 2b) Theme-bundled brand logos (assets/img/{Name}.webp).
+    //     These are verified brand logo files shipped with the theme.
+    if ( function_exists( 'sdn_theme_brand_logo' ) ) {
+        $theme_logo = sdn_theme_brand_logo( $slug );
+        if ( $theme_logo ) return $theme_logo;
+    }
+
     // 3) Migration 'brand_logo' meta — guarded (reject product photos so they
     //    fall through to initials instead of showing wrong images).
     $cpt = get_page_by_path( $slug, OBJECT, 'brand' );
@@ -159,20 +166,43 @@ function sdn_brand_logo_for_slug( $slug ) {
         }
     }
 
-    // 4) ucfirst(slug) convention — many logos follow the pattern
-    //    /wp-content/uploads/{Ucfirst-slug}-300x162.png (e.g. Puffco-300x162.png).
-    //    Try both -300x162 and bare .png variants.
-    $capitalized = ucfirst( $slug );
-    foreach ( array( $capitalized . '-300x162.png', $capitalized . '-300x162.jpg' ) as $try ) {
-        $url = home_url( '/wp-content/uploads/' . $try );
-        // We can't verify file existence without a DB query, but the <img>
-        // onerror handler in the template hides broken images gracefully.
-        // Only return if the CPT post exists (validates the brand is real).
-        if ( $cpt || function_exists( 'sdn_brand_directory' ) ) {
-            return $url;
-        }
-    }
+    // 4) ucfirst(slug) convention — removed for ProductPro (was causing 404s).
 
+    return '';
+}
+
+/* ---------- Theme-bundled brand logos (assets/img/{Name}.webp) ----
+ * Returns the URL of a brand logo bundled with the theme, or '' if none.
+ * Logo filenames must match the brand name (case-insensitive, spaces allowed).
+ */
+function sdn_theme_brand_logo( $slug ) {
+    // Map of slug => logo filename in assets/img/
+    $logos = array(
+        'advant'            => 'Advant.webp',
+        'biird'             => 'Biird.webp',
+        'bijoux-indiscrets' => 'Bijoux Indiscrets.webp',
+        'blush'             => 'Blush.webp',
+        'coochy'            => 'coochy.webp',
+        'crave'             => 'Crave.webp',
+        'dreamgirl'         => 'DreamGirl.webp',
+        'earthly-body'      => 'Earthly Body.webp',
+        'eroscillator'      => 'Eroscillator.webp',
+        'eye-of-love'       => 'Eye of Love.webp',
+        'funfactory'        => 'FunFactory.webp',
+        'high-on-love'      => 'High On Love.webp',
+        'le-wand'           => 'Le Wand.webp',
+        'neo-sensual'       => 'Neo Sensual.webp',
+        'njoy'              => 'Njoy.webp',
+        'nuud'              => 'Nuud.webp',
+        'sensuva'           => 'Sensuva.webp',
+        'snail-vibe'        => 'Snail Vibe.webp',
+        'tantus'            => 'Tantus.webp',
+        'tenga'             => 'Tenga.webp',
+        'twisted-wears'     => 'Twisted Wears.webp',
+    );
+    if ( isset( $logos[ $slug ] ) ) {
+        return get_stylesheet_directory_uri() . '/assets/img/' . rawurlencode( $logos[ $slug ] );
+    }
     return '';
 }
 
@@ -547,7 +577,7 @@ function sdn_platforms() {
             'slug'      => 'api',
             'name'      => 'Custom API',
             'icon'      => 'api',
-            'color'     => '#13c27b',
+            'color'     => '#e55d5c',
             'tagline'   => 'REST API, CSV/FTP, and EDI for custom stacks',
             'install_url'   => home_url( '/contact' ),
             'install_label' => 'Talk to our team',

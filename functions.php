@@ -311,7 +311,7 @@ function sdn_contact_forminator_overrides() {
 .contact-form-card .forminator-button-submit:hover{background:var(--green-d)!important;transform:translateY(-1px)!important}
 .contact-form-card .forminator-response-message{border-radius:var(--r-md)!important;padding:14px 16px!important;font-size:.9rem!important}
 .contact-form-card .forminator-error{background:rgba(255,99,99,.1)!important;border:1px solid rgba(255,99,99,.3)!important;color:#ff8585!important}
-.contact-form-card .forminator-success{background:rgba(19,194,123,.1)!important;border:1px solid rgba(19,194,123,.3)!important;color:var(--green-xl)!important}
+.contact-form-card .forminator-success{background:rgba(229,93,92,.1)!important;border:1px solid rgba(229,93,92,.3)!important;color:var(--green-xl)!important}
 </style>
     <?php
 }

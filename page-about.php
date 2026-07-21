@@ -30,7 +30,7 @@ $retail_url = home_url( '/retailers' );
     </section>
 
     <!-- STATS -->
-    <section class="sec-sm" style="background:#13c27b;">
+    <section class="sec-sm" style="background:#e55d5c;">
       <div class="wrap">
         <div class="scale-stats">
           <div class="ss reveal"><div class="n" style="color:#000;font-weight:800;"><span data-count="20000" data-suffix="+">0</span></div><div class="l" style="color:#000;font-weight:600;">Adult store products</div></div>

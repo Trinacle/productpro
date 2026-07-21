@@ -36,10 +36,10 @@ $check_svg   = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strok
         <div class="price-grid-2 reveal reveal-d3" id="price-grid">
           <div class="price-card featured">
             <div class="p-tier">Retailer</div>
-            <div class="p-amt billing-monthly">$99.99<small>/mo</small></div>
-            <div class="p-amt billing-yearly">$66.67<small>/mo</small></div>
-            <div class="p-yearly billing-monthly">or <strong>$799.99/yr</strong> &mdash; save 24%</div>
-            <div class="p-yearly billing-yearly">$799.99 billed annually &mdash; save 24%</div>
+            <div class="p-amt billing-monthly">$69.99<small>/mo</small></div>
+            <div class="p-amt billing-yearly">$58.25<small>/mo</small></div>
+            <div class="p-yearly billing-monthly">or <strong>$699/yr</strong> &mdash; save 17%</div>
+            <div class="p-yearly billing-yearly">$699 billed annually &mdash; save 17%</div>
             <div class="p-desc" style="margin-top:14px;">Import unlimited products and buy wholesale from hundreds of suppliers.</div>
             <ul class="p-feats">
               <li><?php echo $check_svg; // phpcs:ignore ?>Import unlimited products into your store</li>
@@ -56,10 +56,10 @@ $check_svg   = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strok
 
           <div class="price-card">
             <div class="p-tier">Supplier</div>
-            <div class="p-amt billing-monthly">$49.99<small>/mo</small></div>
-            <div class="p-amt billing-yearly">$41.67<small>/mo</small></div>
-            <div class="p-yearly billing-monthly">or <strong>$499.99/yr</strong> &mdash; save 17%</div>
-            <div class="p-yearly billing-yearly">$499.99 billed annually &mdash; save 17%</div>
+            <div class="p-amt billing-monthly">$49<small>/mo</small></div>
+            <div class="p-amt billing-yearly">$41.58<small>/mo</small></div>
+            <div class="p-yearly billing-monthly">or <strong>$499/yr</strong> &mdash; save 15%</div>
+            <div class="p-yearly billing-yearly">$499 billed annually &mdash; save 15%</div>
             <div class="p-desc" style="margin-top:14px;">Supply unlimited products and sell wholesale to hundreds of retailers.</div>
             <ul class="p-feats">
               <li><?php echo $check_svg; // phpcs:ignore ?>Supply unlimited products</li>

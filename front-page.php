@@ -79,22 +79,34 @@ $sdu = function ( $path ) { return home_url( '/wp-content/uploads/2024/01/' . $p
         </div>
       </div>
       <?php
-      $sdn_all_brands  = sdn_real_brand_logos();
-      $sdn_brand_row1  = array_slice( $sdn_all_brands, 0, 8 );
-      $sdn_brand_row2  = array_slice( $sdn_all_brands, 8 );
+      // Build logo list from theme-bundled brand logos (assets/img/).
+      $sdn_logo_brands = array();
+      $sdn_all_dir     = function_exists( 'sdn_brand_directory' ) ? sdn_brand_directory() : array();
+      foreach ( $sdn_all_dir as $b ) {
+          $slug = isset( $b['slug'] ) ? $b['slug'] : '';
+          if ( $slug && function_exists( 'sdn_theme_brand_logo' ) && sdn_theme_brand_logo( $slug ) ) {
+              $sdn_logo_brands[] = $b;
+          }
+      }
+      $sdn_brand_row1  = array_slice( $sdn_logo_brands, 0, 11 );
+      $sdn_brand_row2  = array_slice( $sdn_logo_brands, 11 );
       ?>
+      <?php if ( ! empty( $sdn_logo_brands ) ) : ?>
       <div class="lw-wall">
         <div class="lw-row">
           <?php for ( $r1 = 0; $r1 < 2; $r1++ ) : foreach ( $sdn_brand_row1 as $b ) : ?>
-            <a class="lgo" href="<?php echo esc_url( home_url( '/brand/' . $b['slug'] . '/' ) ); ?>"><img class="lgo-img" src="<?php echo esc_url( home_url( '/wp-content/uploads/' . $b['file'] ) ); ?>" alt="<?php echo esc_attr( $b['name'] ); ?>" loading="lazy"></a>
+            <a class="lgo" href="<?php echo esc_url( home_url( '/brand/' . $b['slug'] . '/' ) ); ?>"><img class="lgo-img" src="<?php echo esc_url( sdn_theme_brand_logo( $b['slug'] ) ); ?>" alt="<?php echo esc_attr( $b['name'] ); ?>" loading="lazy"></a>
           <?php endforeach; endfor; ?>
         </div>
+        <?php if ( ! empty( $sdn_brand_row2 ) ) : ?>
         <div class="lw-row rev" style="margin-top:40px;">
           <?php for ( $r2 = 0; $r2 < 2; $r2++ ) : foreach ( $sdn_brand_row2 as $b ) : ?>
-            <a class="lgo" href="<?php echo esc_url( home_url( '/brand/' . $b['slug'] . '/' ) ); ?>"><img class="lgo-img" src="<?php echo esc_url( home_url( '/wp-content/uploads/' . $b['file'] ) ); ?>" alt="<?php echo esc_attr( $b['name'] ); ?>" loading="lazy"></a>
+            <a class="lgo" href="<?php echo esc_url( home_url( '/brand/' . $b['slug'] . '/' ) ); ?>"><img class="lgo-img" src="<?php echo esc_url( sdn_theme_brand_logo( $b['slug'] ) ); ?>" alt="<?php echo esc_attr( $b['name'] ); ?>" loading="lazy"></a>
           <?php endforeach; endfor; ?>
         </div>
+        <?php endif; ?>
       </div>
+      <?php endif; ?>
       <div class="lw-foot">
         <a href="<?php echo esc_url( $brands_url ); ?>">View all 300+ brands <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
       </div>

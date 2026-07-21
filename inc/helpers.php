@@ -28,7 +28,6 @@ function sdn_platform_icon( $platform, $size = 30 ) {
     $key = strtolower( $platform );
     return isset( $icons[ $key ] ) ? $icons[ $key ] : '';
 }
-}
 
 /* ---------- Real brand logos (verified working files, used until the Brand CPT is populated) ----------
  * Empty for now — ProductPro brand logos will be added as they're obtained.

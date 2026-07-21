@@ -55,7 +55,7 @@ $sdn_letters = array_keys( $sdn_grouped );
       <div class="ph-inner center">
         <p class="eyebrow reveal" style="justify-content:center;">Brands We Carry</p>
         <h1 class="display reveal reveal-d1" style="margin:24px 0;">300+ brands.<br><span class="italic gradient-text">One integration.</span></h1>
-        <p class="lede reveal reveal-d2" style="max-width:620px;margin:0 auto;">The deepest adult, intimacy &amp; wellness catalog in the industry &mdash; <?php echo count( $sdn_active ); ?>+ brands your customers already ask for, ready to dropship or buy wholesale.</p>
+        <p class="lede reveal reveal-d2" style="max-width:620px;margin:0 auto;">The deepest adult, intimacy &amp; wellness catalog in the industry &mdash; 300+ brands your customers already ask for, ready to dropship or buy wholesale.</p>
         <div class="hero-actions reveal reveal-d3" style="justify-content:center;margin-top:32px;">
           <a href="<?php echo esc_url( $register ); ?>" class="btn btn-lime btn-lg">Start Free Trial</a>
           <a href="#directory" class="btn btn-outline btn-lg">Browse all brands</a>
@@ -153,7 +153,7 @@ $sdn_letters = array_keys( $sdn_grouped );
       <div class="wrap">
         <div class="center" style="margin-bottom:32px;">
           <p class="eyebrow reveal" style="justify-content:center;">Full directory</p>
-          <h2 class="h-sec reveal reveal-d1" style="margin-top:16px;">Browse all <?php echo count( $sdn_active ); ?>+ brands</h2>
+          <h2 class="h-sec reveal reveal-d1" style="margin-top:16px;">Browse all 300+ brands</h2>
         </div>
 
         <!-- A-Z alpha nav -->

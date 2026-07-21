@@ -256,7 +256,7 @@ $sdu = function ( $path ) { return home_url( '/wp-content/uploads/2024/01/' . $p
         <div class="scale-stats">
           <div class="ss reveal"><div class="n" style="color:#000;font-weight:800;"><span data-count="20000" data-suffix="+">0</span></div><div class="l" style="color:#000;font-weight:600;">Adult store products</div></div>
           <div class="ss reveal reveal-d1"><div class="n" style="color:#000;font-weight:800;"><span data-count="300" data-suffix="+">0</span></div><div class="l" style="color:#000;font-weight:600;">Top brands</div></div>
-          <div class="ss reveal reveal-d2"><div class="n" style="color:#000;font-weight:800;"><span data-count="30" data-suffix="+">0</span></div><div class="l" style="color:#000;font-weight:600;">Countries shipped to</div></div>
+          <div class="ss reveal reveal-d2"><div class="n" style="color:#000;font-weight:800;"><span data-count="500" data-suffix="+">0</span></div><div class="l" style="color:#000;font-weight:600;">Product Collections</div></div>
           <div class="ss reveal reveal-d3"><div class="n" style="color:#000;font-weight:800;">Real Time</div><div class="l" style="color:#000;font-weight:600;">Order sync</div></div>
         </div>
       </div>

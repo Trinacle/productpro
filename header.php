@@ -95,12 +95,19 @@
             <div class="mega-panel" data-panel="brands">
                 <div class="mega-grid">
                     <?php
-                    // Top brands (logo'd) linking to their /brand/{slug}/ page.
-                    $sdn_mega_brands = sdn_real_brand_logos();
+                    // Top trending brands from the directory (sorted by value).
                     $sdn_brands_url  = home_url( '/brands' );
-                    if ( ! empty( $sdn_mega_brands ) ) :
-                        echo '<div class="mega-col-head">Featured Brands</div>';
-                        foreach ( $sdn_mega_brands as $b ) {
+                    $sdn_all_brands  = function_exists( 'sdn_brand_directory' ) ? sdn_brand_directory() : array();
+                    $sdn_top_brands  = array();
+                    // Get top brands that have a logo (theme-bundled or directory logo).
+                    foreach ( $sdn_all_brands as $b ) {
+                        if ( ! empty( $b['value'] ) && $b['value'] >= 9 ) {
+                            $sdn_top_brands[] = $b;
+                        }
+                    }
+                    if ( ! empty( $sdn_top_brands ) ) :
+                        echo '<div class="mega-col-head">Top Trending Brands</div>';
+                        foreach ( $sdn_top_brands as $b ) {
                             printf(
                                 '<a class="mega-link" href="%1$s"><strong>%2$s</strong><span>View products &amp; dropship</span></a>',
                                 esc_url( home_url( '/brand/' . $b['slug'] . '/' ) ),
@@ -109,7 +116,7 @@
                         }
                     endif;
                     ?>
-                    <a class="mega-link" href="<?php echo esc_url( $sdn_brands_url ); ?>"><strong>All Brands</strong><span>Browse 380+ in the catalog</span></a>
+                    <a class="mega-link" href="<?php echo esc_url( $sdn_brands_url ); ?>"><strong>All Brands</strong><span>Browse 300+ in the catalog</span></a>
                 </div>
             </div>
 

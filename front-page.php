@@ -29,10 +29,10 @@ $sdu = function ( $path ) { return home_url( '/wp-content/uploads/2024/01/' . $p
     <!-- ===== HERO ===== -->
     <section class="hero" id="hero">
       <div class="hero-inner">
-        <p class="eyebrow reveal">#1 Online Adult Store Dropshipping App</p>
+        <p class="eyebrow reveal">#1 Online Sex Shop Dropshipping App</p>
         <h1 class="display-mega">
-          <span class="line-mask"><span>The industry</span></span>
-          <span class="line-mask line-mask-d1"><span>leading <em class="italic gradient-text">dropship</em></span></span>
+          <span class="line-mask"><span>The leading</span></span>
+          <span class="line-mask line-mask-d1"><span>adult <em class="italic gradient-text">dropship</em></span></span>
           <span class="line-mask line-mask-d2"><span>marketplace.</span></span>
         </h1>
 
@@ -323,7 +323,7 @@ $sdu = function ( $path ) { return home_url( '/wp-content/uploads/2024/01/' . $p
       </div>
     </section>
 
-    <!-- ===== FEATURED PRODUCTS ===== -->
+    <?php /* ===== FEATURED PRODUCTS (hidden until products are imported — re-enable by removing the if(false) wrapper) =====
     <section class="sec" style="background:var(--bg-2);">
       <div class="wrap">
         <div style="display:flex;justify-content:space-between;align-items:flex-end;flex-wrap:wrap;gap:24px;margin-bottom:56px;">
@@ -410,6 +410,7 @@ $sdu = function ( $path ) { return home_url( '/wp-content/uploads/2024/01/' . $p
         ?>
       </div>
     </section>
+    ===== END FEATURED PRODUCTS (hidden) ===== */ ?>
 
     <!-- ===== BLOG PREVIEW (animated background) ===== -->
     <section class="sec blog-animated" id="blog">
@@ -461,7 +462,7 @@ $sdu = function ( $path ) { return home_url( '/wp-content/uploads/2024/01/' . $p
                 <div class="thumb"><span class="cat">Dropshipping</span><img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&q=80" alt="Adult store dropshipping" loading="lazy"></div>
                 <div class="body">
                   <div class="meta"><span>Jun 24, 2026</span><span>8 min</span></div>
-                  <h4>The 2026 Adult Store Dropshipping Playbook</h4>
+                  <h4>The 2026 Sex Shop Dropshipping Playbook</h4>
                   <p>How to launch a 1,000-SKU store this weekend with zero inventory.</p>
                   <span class="more">Read more <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
                 </div>

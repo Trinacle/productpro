@@ -117,7 +117,7 @@ $sdn_top_brands = array_slice( $sdn_top_brands, 0, 10 );
               }
               woocommerce_product_loop_end();
           } else {
-              echo '<div class="shop-empty"><p>No products found.</p><a href="' . esc_url( $register ) . '" class="btn btn-lime">Start dropshipping</a></div>';
+              echo '<div class="shop-empty"><a href="' . esc_url( $brands_url ) . '" class="btn btn-lime">View Full Catalog</a></div>';
           }
 
           woocommerce_pagination();

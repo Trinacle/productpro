@@ -416,7 +416,7 @@ function sdn_yoast_metadesc( $desc ) {
 add_filter( 'wpseo_title', 'sdn_yoast_title', 10, 2 );
 function sdn_yoast_title( $title ) {
     if ( is_front_page() ) {
-        return 'ProductPro — #1 Adult Store Dropshipping App | Shopify & WooCommerce';
+        return 'ProductPro — #1 Sex Shop Dropshipping App | Shopify & WooCommerce';
     }
     // Brand pages: build a proper SEO title from the brand name.
     $path = trim( parse_url( $_SERVER['REQUEST_URI'] ?? '/', PHP_URL_PATH ), '/' );
@@ -446,7 +446,7 @@ function sdn_yoast_title( $title ) {
 add_filter( 'wpseo_opengraph_title', 'sdn_yoast_homepage_og_title' );
 function sdn_yoast_homepage_og_title( $title ) {
     if ( is_front_page() ) {
-        return 'ProductPro — #1 Adult Store Dropshipping App';
+        return 'ProductPro — #1 Sex Shop Dropshipping App';
     }
     return $title;
 }

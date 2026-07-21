@@ -107,7 +107,7 @@
                     }
                     if ( ! empty( $sdn_top_brands ) ) :
                         echo '<div class="mega-col-head">Top Trending Brands</div>';
-                        foreach ( $sdn_top_brands as $b ) {
+                        foreach ( array_slice( $sdn_top_brands, 0, 15 ) as $b ) {
                             printf(
                                 '<a class="mega-link" href="%1$s"><strong>%2$s</strong><span>View products &amp; dropship</span></a>',
                                 esc_url( home_url( '/brand/' . $b['slug'] . '/' ) ),

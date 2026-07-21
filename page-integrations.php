@@ -58,7 +58,7 @@ $call          = home_url( '/call' );
             <div class="int-platform-head">
               <span class="int-logo">
                 <?php if ( ! empty( $p['icon'] ) ) : ?>
-                  <?php echo sdn_platform_icon( $p['icon'], 36 ); ?>
+                  <?php echo sdn_platform_icon( $p['icon'], 56 ); ?>
                 <?php else : ?>
                   <span class="int-logo-glyph">&lt;/&gt;</span>
                 <?php endif; ?>

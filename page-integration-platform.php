@@ -42,7 +42,7 @@ $check_svg = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-
     <div class="wrap brand-hero-inner">
       <div class="brand-hero-logo reveal" style="background:#fff;">
         <?php if ( ! empty( $sdn_p['icon'] ) ) : ?>
-          <?php echo sdn_platform_icon( $sdn_p['icon'], 48 ); ?>
+          <?php echo sdn_platform_icon( $sdn_p['icon'], 64 ); ?>
         <?php else : ?>
           <span class="brand-hero-mark">&lt;/&gt;</span>
         <?php endif; ?>

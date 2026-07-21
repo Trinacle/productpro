@@ -67,12 +67,12 @@ $sdn_top_brands = array_slice( $sdn_top_brands, 0, 10 );
           </div>
 
           <a href="<?php echo esc_url( $shopify_app ); ?>" class="shopify-cta" style="display:flex;">
-            <span class="fmc-ic"><?php echo sdn_platform_icon( 'shopify', 30 ); ?></span>
+            <span class="fmc-ic"><?php echo sdn_platform_icon( 'shopify', 48 ); ?></span>
             <div><strong>Install on Shopify</strong><small>One-click from App Store</small></div>
           </a>
 
           <a href="<?php echo esc_url( $woo_plugin ); ?>" class="shopify-cta" style="display:flex;">
-            <span class="fmc-ic"><?php echo sdn_platform_icon( 'woocommerce', 30 ); ?></span>
+            <span class="fmc-ic"><?php echo sdn_platform_icon( 'woocommerce', 48 ); ?></span>
             <div><strong>WooCommerce Plugin</strong><small>Self-hosted WordPress</small></div>
           </a>
         </aside>

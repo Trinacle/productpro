@@ -263,11 +263,11 @@ get_header();
 
           <!-- Platform mini-CTAs -->
           <a href="https://apps.shopify.com/air-waves-apparel" class="foot-mini-cta" style="display:flex;">
-            <span class="fmc-ic"><?php echo sdn_platform_icon( 'shopify', 30 ); ?></span>
+            <span class="fmc-ic"><?php echo sdn_platform_icon( 'shopify', 48 ); ?></span>
             <div><strong>Install on Shopify</strong><small>One-click from App Store</small></div>
           </a>
           <a href="<?php echo esc_url( 'https://app.f13commerce.com/register' ); ?>" class="foot-mini-cta" style="display:flex;">
-            <span class="fmc-ic"><?php echo sdn_platform_icon( 'woocommerce', 30 ); ?></span>
+            <span class="fmc-ic"><?php echo sdn_platform_icon( 'woocommerce', 48 ); ?></span>
             <div><strong>WooCommerce Plugin</strong><small>Self-hosted WordPress</small></div>
           </a>
         </aside>

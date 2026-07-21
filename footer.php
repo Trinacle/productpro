@@ -31,11 +31,11 @@
                 <p>The wholesale and dropshipping platform for the adult, intimacy, and wellness industry. Sync 20,000+ products in one click.</p>
                 <div class="foot-cta-stack">
     <a href="https://apps.shopify.com/air-waves-apparel" class="foot-mini-cta">
-        <span class="fmc-ic"><?php echo sdn_platform_icon( 'shopify', 30 ); ?></span>
+        <span class="fmc-ic"><?php echo sdn_platform_icon( 'shopify', 48 ); ?></span>
         <span>Install on Shopify</span>
     </a>
     <a href="<?php echo esc_url( 'https://app.f13commerce.com/register' ); ?>" class="foot-mini-cta">
-        <span class="fmc-ic"><?php echo sdn_platform_icon( 'woocommerce', 30 ); ?></span>
+        <span class="fmc-ic"><?php echo sdn_platform_icon( 'woocommerce', 48 ); ?></span>
         <span>Download WooCommerce Plugin</span>
     </a>
                 </div>

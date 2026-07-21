@@ -131,6 +131,13 @@ $sdn_niche = sdn_brand_niche( $sdn_name );
 $sdn_gallery_urls = $sdn_cpt_id ? sdn_brand_gallery_ids( $sdn_cpt_id ) : array();
 $sdn_hero_img     = $sdn_cpt_id ? sdn_brand_hero_image_url( $sdn_cpt_id ) : '';
 
+// Theme-bundled product image (assets/img/{Name}_wholesale_dropship.png)
+// takes priority for the hero Image 1 spot.
+if ( ! $sdn_hero_img && function_exists( 'sdn_theme_brand_image' ) ) {
+    $theme_img = sdn_theme_brand_image( $sdn_slug ?: $sdn_requested );
+    if ( $theme_img ) $sdn_hero_img = $theme_img;
+}
+
 // Directory 'images' map (explicit per-brand, e.g. CCell, Storz-Bickel) takes
 // priority for hero + gallery — it's the verified-correct image set.
 if ( ! empty( $sdn_dir_images ) ) {

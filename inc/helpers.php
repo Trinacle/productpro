@@ -213,6 +213,21 @@ function sdn_theme_brand_logo( $slug ) {
     return '';
 }
 
+/* ---------- Theme-bundled brand product images (assets/img/{Name}_wholesale_dropship.png) ----
+ * Returns the URL of a brand product/lifestyle image bundled with the theme,
+ * or '' if none. Used as the Image 1 hero on single brand pages.
+ */
+function sdn_theme_brand_image( $slug ) {
+    $images = array(
+        // Add entries here as product images are obtained.
+        // Format: 'brand-slug' => 'Brand Name_wholesale_dropship.png',
+    );
+    if ( isset( $images[ $slug ] ) ) {
+        return get_stylesheet_directory_uri() . '/assets/img/' . rawurlencode( $images[ $slug ] );
+    }
+    return '';
+}
+
 /* ---------- Get explicit per-brand images from the directory map ----------
  * Reads the optional 'images' field added to brand-directory.php entries
  * (e.g. CCell). Returns an associative array: ['logo'=>..., 'img1'=>...,

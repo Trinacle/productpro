@@ -204,7 +204,7 @@ function sdn_strip_wc_on_nonshop() {
 add_action( 'wp_head', 'sdn_preload_hints', 1 );
 function sdn_preload_hints() {
     // Preload the logo (likely LCP element).
-    echo '<link rel="preload" as="image" href="' . esc_url( home_url( '/wp-content/uploads/productpro-logo-dark.png' ) ) . '">' . "\n";
+    echo '<link rel="preload" as="image" href="' . esc_url( home_url( '/wp-content/uploads/2019/09/cropped-Product_Pro_Logo_Horizontal.png' ) ) . '">' . "\n";
 }
 
 /* ---------- Default product sort to 'latest' on the shop/marketplace ---------- */
@@ -475,7 +475,7 @@ function sdn_schema() {
         '@id'      => $home . '#organization',
         'name'     => 'ProductPro',
         'url'      => $home,
-        'logo'     => home_url( '/wp-content/uploads/productpro-logo-dark.png' ),
+        'logo'     => home_url( '/wp-content/uploads/2019/09/cropped-Product_Pro_Logo_Horizontal.png' ),
         'image'    => home_url( SDN_OG_IMAGE ),
         'description' => 'The #1 adult store dropshipping platform. Sync 20,000+ adult, wellness & intimacy products to Shopify and WooCommerce stores.',
         'sameAs'   => array(
@@ -549,14 +549,7 @@ remove_action( 'woocommerce_after_single_product_summary', 'woocommerce_template
 
 /* ---------- Helper: get the logo ---------- */
 function sdn_logo( $size = 34 ) {
-    // ProductPro logo assets — upload these via wp-admin Media:
-    //   /wp-content/uploads/productpro-logo-dark.png  (for dark backgrounds, white text)
-    //   /wp-content/uploads/productpro-logo-light.png (for light backgrounds, dark text)
-    // Until uploaded, falls back to a text-based logo.
-    $dark_url  = home_url( '/wp-content/uploads/productpro-logo-dark.png' );
-    $light_url = home_url( '/wp-content/uploads/productpro-logo-light.png' );
+    $logo_url  = home_url( '/wp-content/uploads/2019/09/cropped-Product_Pro_Logo_Horizontal.png' );
     $h         = intval( $size );
-    return '<img src="' . esc_url( $dark_url ) . '" alt="ProductPro" class="logo-dark" style="height:' . $h . 'px;width:auto;" onerror="this.style.display=\'none\';this.nextElementSibling.style.display=\'inline-flex\'">'
-        . '<img src="' . esc_url( $light_url ) . '" alt="ProductPro" class="logo-light" style="height:' . $h . 'px;width:auto;" onerror="this.style.display=\'none\';this.previousElementSibling.style.display=\'inline-flex\'">'
-        . '<span class="logo-text-fallback" style="display:none;font-family:Inter Tight,sans-serif;font-weight:700;font-size:' . max( 16, $h ) . 'px;color:var(--ink);letter-spacing:-.02em;">ProductPro</span>';
+    return '<img src="' . esc_url( $logo_url ) . '" alt="ProductPro" style="height:' . $h . 'px;width:auto;">';
 }

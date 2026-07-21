@@ -27,7 +27,7 @@ $demo_url    = home_url( '/demo' );
         </h1>
         <p class="lede reveal reveal-d3" style="max-width:640px;">Unlock the power of dropshipping and distribute your products to hundreds of adult stores &amp; online retailers. Fully automated order management. Easy &amp; fast catalog import. <strong style="color:var(--ink);">From $49.99/mo &mdash; no transaction fees, no commissions, ever.</strong></p>
         <div class="hero-actions reveal reveal-d4">
-          <a href="https:///signup" class="btn btn-lime btn-lg">Become a supplier</a>
+          <a href="https://app.f13commerce.com/register" class="btn btn-lime btn-lg">Become a supplier</a>
           <a href="<?php echo esc_url( $demo_url ); ?>" class="btn btn-outline btn-lg">Get a Demo</a>
         </div>
       </div>

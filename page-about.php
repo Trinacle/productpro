@@ -153,7 +153,7 @@ $retail_url = home_url( '/retailers' );
             <h2 class="display" style="color:#fff;">Ready to get started?</h2>
             <p class="lede">Join as a retailer or a wholesaler &mdash; both start with a 7-day free trial.</p>
             <div class="hero-actions">
-              <a href="https:///signup" class="btn btn-lime btn-lg">Start Free Trial</a>
+              <a href="https://app.f13commerce.com/register" class="btn btn-lime btn-lg">Start Free Trial</a>
               <a href="<?php echo esc_url( $retail_url ); ?>" class="btn btn-outline btn-lg" style="border-color:rgba(255,255,255,.3);color:#fff;">For Retailers</a>
             </div>
           </div>

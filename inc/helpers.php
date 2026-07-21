@@ -14,6 +14,22 @@ function sdn_product_placeholder_url() {
     return get_stylesheet_directory_uri() . '/assets/img/no-product.svg';
 }
 
+/* ---------- Platform logos (inline SVG — no file dependency) ----
+ * Returns an inline SVG for Shopify, WooCommerce, BigCommerce, or API.
+ * Usage: echo sdn_platform_icon( 'shopify', 30 );
+ */
+function sdn_platform_icon( $platform, $size = 30 ) {
+    $icons = array(
+        'shopify' => '<svg viewBox="0 0 48 48" width="' . $size . '" height="' . $size . '" fill="#95BF47"><path d="M38.5 10.1c-.1-.4-.4-.5-.6-.5-.3 0-4.8.1-4.8.1s-3.8-3.7-4.2-4c-.4-.4-1.1-.2-1.4-.1 0 0-.7.2-1.9.6-.2-.6-.5-1.4-.9-2.1C23.6 2 21.3.4 18.8.4h-.1c-.1 0-.2 0-.3.1 0-.1.1-.2.1-.2S17.3-1 16.3-.7c-.5-1.2-1.7-2.6-3.7-2.6h-.1C9.3-3.4 6.7.7 5.6 2.7c-.7.2-1.2.4-1.7.5-1.1.3-1.2.4-1.3.9-.1.4-2.6 19.8-2.6 19.8L18.3 25l15.1-1.6c0-.1 5.1-12.9 5.1-13.3zM26.5 6.8l-1.5.5v-.2c0-1.2-.2-2.2-.5-3 1.2.3 1.9 1.5 2 2.7zM22.5 4.1c.5.5.8 1.3.8 2.4v.5l-3.3 1c0-2.5.9-3.6 2.5-3.9zm-2.4-1.8c.3 0 .5.1.8.2-2 .9-4.1 3.2-5 7.8l-2.6.8c1-3.8 3.4-8.8 6.8-8.8z" transform="translate(0 3)"/></svg>',
+        'woocommerce' => '<svg viewBox="0 0 48 24" width="' . $size . '" height="' . ( $size * 0.5 ) . '" fill="#7F54B3"><path d="M.8 0h46.4c.4 0 .8.4.8.8v16.4c0 .4-.4.8-.8.8H29.4l-3.2 4-3.2-4H.8c-.4 0-.8-.4-.8-.8V.8C0 .4.4 0 .8 0z" opacity=".15"/><circle cx="24" cy="9" r="7" fill="none" stroke="#7F54B3" stroke-width="1.5"/><text x="24" y="13" text-anchor="middle" font-size="9" font-weight="700" fill="#7F54B3" font-family="Arial">W</text></svg>',
+        'bigcommerce' => '<svg viewBox="0 0 48 48" width="' . $size . '" height="' . $size . '" fill="#121118"><path d="M41.8 9.5H22.4l-3.3 5.8h22.7V9.5zm0 8.3H16.2L13 23.6h28.8v-5.8zm0 8.3H10.5v5.8h31.3v-5.8zM7.9 29.7L0 44.4 8.4 29.7z" fill="#444"/><path d="M41.8 34.3H8.4L0 44.4h41.8c.4 0 .8-.4.8-.8v-8.5c0-.4-.4-.8-.8-.8z" fill="#121118"/></svg>',
+        'api' => '<svg viewBox="0 0 48 48" width="' . $size . '" height="' . $size . '" fill="none" stroke="currentColor" stroke-width="2"><path d="M24 4l18 10v20L24 44 6 34V14z"/><text x="24" y="29" text-anchor="middle" font-size="9" font-weight="700" fill="currentColor" font-family="Arial" stroke="none">API</text></svg>',
+    );
+    $key = strtolower( $platform );
+    return isset( $icons[ $key ] ) ? $icons[ $key ] : '';
+}
+}
+
 /* ---------- Real brand logos (verified working files, used until the Brand CPT is populated) ----------
  * Empty for now — ProductPro brand logos will be added as they're obtained.
  * The homepage logo wall and mega menu gracefully hide when this is empty.
@@ -449,7 +465,7 @@ function sdn_cta( $title = 'Ready to take your drop shipping to the next level?'
                         <p class="lede"><?php echo esc_html( $desc ); ?></p>
                     <?php endif; ?>
                     <div class="hero-actions">
-                        <a href="https:///signup" class="btn btn-lime btn-lg">Start Free Trial</a>
+                        <a href="https://app.f13commerce.com/register" class="btn btn-lime btn-lg">Start Free Trial</a>
                         <a href="<?php echo esc_url( home_url( '/demo' ) ); ?>" class="btn btn-outline btn-lg" style="border-color:rgba(255,255,255,.3);color:#fff;">Get a Demo</a>
                     </div>
                 </div>
@@ -464,12 +480,11 @@ function sdn_cta( $title = 'Ready to take your drop shipping to the next level?'
  * detail pages. Logo paths are the verified Webflow-uploaded SVGs.
  */
 function sdn_platforms() {
-    $uploads = home_url( '/wp-content/uploads/2024/01/' );
     return array(
         'shopify' => array(
             'slug'      => 'shopify',
             'name'      => 'Shopify',
-            'logo'      => $uploads . '5f1a58272cd5b8c219db0ba4_shopify-logo.svg',
+            'icon'      => 'shopify',
             'color'     => '#95bf47',
             'tagline'   => 'One-click install from the Shopify App Store',
             'install_url'   => 'https://apps.shopify.com/air-waves-apparel',
@@ -490,10 +505,10 @@ function sdn_platforms() {
         'woocommerce' => array(
             'slug'      => 'woocommerce',
             'name'      => 'WooCommerce',
-            'logo'      => $uploads . '5f1a59d6f884854a22b65124_woocommerce-logo.svg',
+            'icon'      => 'woocommerce',
             'color'     => '#7f54b3',
             'tagline'   => 'Self-hosted WordPress stores',
-            'install_url'   => home_url( '/signup' ),
+            'install_url'   => 'https://app.f13commerce.com/register',
             'install_label' => 'Download the plugin',
             'desc'      => 'The ProductPro WooCommerce plugin brings dropshipping to self-hosted WordPress stores. Designed to make dropshipping easy and hassle-free — sell more, work less, with no warehouse required.',
             'features'  => array(
@@ -511,7 +526,7 @@ function sdn_platforms() {
         'bigcommerce' => array(
             'slug'      => 'bigcommerce',
             'name'      => 'BigCommerce',
-            'logo'      => $uploads . '5f1a5a542662b9b5006821de_bigcommerce-logo.svg',
+            'icon'      => 'bigcommerce',
             'color'     => '#0d7377',
             'tagline'   => 'Native BigCommerce marketplace integration',
             'install_url'   => 'https://www.bigcommerce.com',
@@ -532,7 +547,7 @@ function sdn_platforms() {
         'api' => array(
             'slug'      => 'api',
             'name'      => 'Custom API',
-            'logo'      => '',
+            'icon'      => 'api',
             'color'     => '#13c27b',
             'tagline'   => 'REST API, CSV/FTP, and EDI for custom stacks',
             'install_url'   => home_url( '/contact' ),
@@ -567,8 +582,8 @@ function sdn_integration_bubbles( $platforms = array(), $variant = '' ) {
         $p = $all[ $key ];
         $href = $base . $key . '/';
         echo '<a href="' . esc_url( $href ) . '" class="' . esc_attr( $class ) . '">';
-        if ( ! empty( $p['logo'] ) ) {
-            echo '<span class="ib-mark"><img src="' . esc_url( $p['logo'] ) . '" alt="' . esc_attr( $p['name'] ) . '" onerror="this.style.display=\'none\'"></span>';
+        if ( ! empty( $p['icon'] ) ) {
+            echo '<span class="ib-mark">' . sdn_platform_icon( $p['icon'], 28 ) . '</span>';
         } else {
             echo '<span class="ib-mark api">&lt;/&gt;</span>';
         }

@@ -57,7 +57,7 @@ $sdn_title     = get_the_title();
               <div><strong>Install on Shopify</strong><small>One-click from the App Store</small></div>
             </a>
 
-            <a href="<?php echo esc_url( home_url( '/signup' ) ); ?>" class="shopify-cta" style="display:flex;">
+            <a href="<?php echo esc_url( 'https://app.f13commerce.com/register' ); ?>" class="shopify-cta" style="display:flex;">
               <svg viewBox="0 0 24 24" fill="#7f54b3" width="24" height="24"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M9 8h4a3 3 0 0 1 0 6h-1l3 4" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
               <div><strong>Download WooCommerce Plugin</strong><small>Self-hosted WordPress stores</small></div>
             </a>

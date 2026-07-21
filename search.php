@@ -70,7 +70,7 @@ $sdn_query = get_search_query();
 
           <!-- Login to see all products -->
           <div class="login-cta-banner">
-            <p>Want to see every product? <a href="https:///signup">Log in or create a free account</a> to access the full ProductPro catalog.</p>
+            <p>Want to see every product? <a href="https://app.f13commerce.com/register">Log in or create a free account</a> to access the full ProductPro catalog.</p>
           </div>
 
         <?php else : ?>

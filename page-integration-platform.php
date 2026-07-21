@@ -41,8 +41,8 @@ $check_svg = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-
   <section class="brand-hero" style="padding-top:140px;">
     <div class="wrap brand-hero-inner">
       <div class="brand-hero-logo reveal" style="background:#fff;">
-        <?php if ( ! empty( $sdn_p['logo'] ) ) : ?>
-          <img src="<?php echo esc_url( $sdn_p['logo'] ); ?>" alt="<?php echo esc_attr( $sdn_p['name'] ); ?>" onerror="this.style.display='none'">
+        <?php if ( ! empty( $sdn_p['icon'] ) ) : ?>
+          <?php echo sdn_platform_icon( $sdn_p['icon'], 48 ); ?>
         <?php else : ?>
           <span class="brand-hero-mark">&lt;/&gt;</span>
         <?php endif; ?>

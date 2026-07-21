@@ -113,7 +113,7 @@ $verticals = array(
           <div class="feat-card reveal reveal-d2"><div class="fc-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20M12 2a15 15 0 0 0 0 20"/></svg></div><h4>Shopify, WooCommerce &amp; BigCommerce</h4><p>Native plugins sync products, orders, and inventory across every major e-commerce platform.</p></div>
         </div>
         <div class="center" style="margin-top:56px;">
-          <a href="https:///signup" class="btn btn-lime btn-lg reveal">Start free trial</a>
+          <a href="https://app.f13commerce.com/register" class="btn btn-lime btn-lg reveal">Start free trial</a>
         </div>
       </div>
     </section>

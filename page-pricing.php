@@ -14,7 +14,7 @@ if ( ! defined( 'ABSPATH' ) ) exit;
 get_header();
 
 $supply_url  = home_url( '/suppliers' );
-$register    = 'https:///signup';
+$register    = 'https://app.f13commerce.com/register';
 $check_svg   = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>';
 ?>
 

@@ -26,14 +26,7 @@ $sdu = function ( $path ) { return home_url( '/wp-content/uploads/2024/01/' . $p
 
 <main>
 
-    <!-- ===== VIMEO VIDEO SECTION (standalone, no overlay) ===== -->
-    <section class="video-section">
-      <div class="vimeo-bg">
-        <iframe src="https://player.vimeo.com/video/1164525650?background=1&autoplay=1&loop=1&byline=0&title=0&muted=1" allow="autoplay; fullscreen" allowfullscreen loading="lazy"></iframe>
-      </div>
-    </section>
-
-    <!-- ===== HERO (below the video) ===== -->
+    <!-- ===== HERO ===== -->
     <section class="hero" id="hero">
       <div class="hero-inner">
         <p class="eyebrow reveal">#1 Online Adult Store Dropshipping App</p>
@@ -66,7 +59,7 @@ $sdu = function ( $path ) { return home_url( '/wp-content/uploads/2024/01/' . $p
 
         <p class="lede reveal reveal-d4">Import over 20,000 adult store products to your online store. The dropshipping platform built for adult stores &mdash; connect to 300+ intimacy, wellness, lingerie, and pleasure brands. Customers order from you. Suppliers ship for you. You keep the margin.</p>
         <div class="hero-actions reveal reveal-d5">
-          <a href="https:///signup" class="btn btn-lime btn-lg" data-magnetic>Start Free Trial <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+          <a href="https://app.f13commerce.com/register" class="btn btn-lime btn-lg" data-magnetic>Start Free Trial <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
           <a href="#how" class="btn btn-outline btn-lg" data-magnetic>See how it works</a>
         </div>
       </div>
@@ -565,7 +558,7 @@ $sdu = function ( $path ) { return home_url( '/wp-content/uploads/2024/01/' . $p
         </div>
         <div class="hero-actions reveal reveal-d4" style="justify-content:center;margin-top:48px;">
           <a href="<?php echo esc_url( home_url( '/integrations' ) ); ?>" class="btn btn-outline btn-lg">Compare all integrations</a>
-          <a href="https:///signup" class="btn btn-lime btn-lg">Start Free Trial</a>
+          <a href="https://app.f13commerce.com/register" class="btn btn-lime btn-lg">Start Free Trial</a>
         </div>
       </div>
     </section>

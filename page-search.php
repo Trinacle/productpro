@@ -71,7 +71,7 @@ if ( $sdn_q ) {
 }
 
 $sdn_total = count( $sdn_products ) + count( $sdn_brands );
-$register  = 'https:///signup';
+$register  = 'https://app.f13commerce.com/register';
 ?>
 
 <main>

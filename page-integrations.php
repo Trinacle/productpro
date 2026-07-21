@@ -17,7 +17,7 @@ if ( ! defined( 'ABSPATH' ) ) exit;
 get_header();
 
 $sdn_platforms = sdn_platforms();
-$register      = 'https:///signup';
+$register      = 'https://app.f13commerce.com/register';
 $call          = home_url( '/call' );
 ?>
 
@@ -57,8 +57,8 @@ $call          = home_url( '/call' );
           <div class="int-platform reveal<?php echo esc_attr( $d ); ?>">
             <div class="int-platform-head">
               <span class="int-logo">
-                <?php if ( ! empty( $p['logo'] ) ) : ?>
-                  <img src="<?php echo esc_url( $p['logo'] ); ?>" alt="<?php echo esc_attr( $p['name'] ); ?>" onerror="this.style.display='none'">
+                <?php if ( ! empty( $p['icon'] ) ) : ?>
+                  <?php echo sdn_platform_icon( $p['icon'], 36 ); ?>
                 <?php else : ?>
                   <span class="int-logo-glyph">&lt;/&gt;</span>
                 <?php endif; ?>

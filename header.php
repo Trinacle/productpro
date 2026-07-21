@@ -53,7 +53,7 @@
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
         </button>
         <a href="https://apps.shopify.com/air-waves-apparel" class="btn btn-outline hide-mob" style="font-size:.85rem;padding:8px 16px;">Shopify App</a>
-        <a href="https:///signup" class="btn btn-lime">Get Started</a>
+        <a href="https://app.f13commerce.com/register" class="btn btn-lime">Get Started</a>
         <button class="menu-trigger" aria-label="Menu" aria-expanded="false"><span></span></button>
     </div>
 </header>
@@ -175,8 +175,8 @@
 <!-- MOBILE NAV -->
 <div class="mobile-nav">
     <div class="mn-auth">
-        <a href="https:///signup" class="btn btn-outline btn-block">Log in</a>
-        <a href="https:///signup" class="btn btn-lime btn-block">Create account</a>
+        <a href="https://app.f13commerce.com/login" class="btn btn-outline btn-block">Log in</a>
+        <a href="https://app.f13commerce.com/register" class="btn btn-lime btn-block">Create account</a>
     </div>
     <nav class="mn-links">
         <a href="<?php echo esc_url( home_url( '/' ) ); ?>">Home</a>

@@ -13,7 +13,7 @@ if ( ! defined( 'ABSPATH' ) ) exit;
 
 get_header();
 
-$signup_url = 'https:///signup';
+$signup_url = 'https://app.f13commerce.com/register';
 $submitted  = false;
 $error      = '';
 

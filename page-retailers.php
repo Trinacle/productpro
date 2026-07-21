@@ -119,7 +119,7 @@ $brands_url  = home_url( '/brands' );
             <h2 class="display" style="font-size:clamp(2rem,4vw,3.4rem);color:#fff;">Stock every brand.<br><span class="italic">Hold zero inventory.</span></h2>
             <p class="lede" style="max-width:560px;margin:24px auto 0;">Join hundreds of retailers dropshipping the biggest adult, intimacy &amp; wellness brands.</p>
             <div class="hero-actions" style="justify-content:center;margin-top:36px;">
-              <a href="https:///signup" class="btn btn-lime btn-lg" style="background:#fff;color:var(--green);">Start free trial</a>
+              <a href="https://app.f13commerce.com/register" class="btn btn-lime btn-lg" style="background:#fff;color:var(--green);">Start free trial</a>
               <a href="<?php echo esc_url( $pricing_url ); ?>" class="btn btn-outline btn-lg" style="border-color:rgba(255,255,255,.3);color:#fff;">View pricing</a>
             </div>
           </div>

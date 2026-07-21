@@ -13,7 +13,7 @@ if ( ! defined( 'ABSPATH' ) ) exit;
 
 get_header();
 
-$register = 'https:///signup';
+$register = 'https://app.f13commerce.com/register';
 $demo     = home_url( '/demo' );
 ?>
 

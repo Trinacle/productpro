@@ -23,7 +23,7 @@ if ( ! defined( 'ABSPATH' ) ) exit;
 get_header();
 
 $supply_url   = home_url( '/suppliers' );
-$register     = 'https:///signup';
+$register     = 'https://app.f13commerce.com/register';
 $sdn_active   = sdn_brand_directory();
 $sdn_new      = sdn_new_brands();
 $sdn_logos    = array_filter( $sdn_active, function ( $b ) { return ! empty( $b['logo'] ); } );

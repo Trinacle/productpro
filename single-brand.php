@@ -27,7 +27,7 @@ $sdn_slug      = '';
 $sdn_name      = '';
 $sdn_logo_url  = '';
 $sdn_desc      = '';
-$sdn_register  = 'https:///signup';
+$sdn_register  = 'https://app.f13commerce.com/register';
 $sdn_brands_pg = home_url( '/brands' );
 
 // The slug we're rendering — either from the main query, the rewrite query var,
@@ -263,11 +263,11 @@ get_header();
 
           <!-- Platform mini-CTAs -->
           <a href="https://apps.shopify.com/air-waves-apparel" class="foot-mini-cta" style="display:flex;">
-            <span class="fmc-ic"><img src="<?php echo esc_url( home_url( '/wp-content/uploads/2024/01/5f1a58272cd5b8c219db0ba4_shopify-logo.svg' ) ); ?>" alt="Shopify" style="width:30px;height:30px;object-fit:contain;"></span>
+            <span class="fmc-ic"><?php echo sdn_platform_icon( 'shopify', 30 ); ?></span>
             <div><strong>Install on Shopify</strong><small>One-click from App Store</small></div>
           </a>
-          <a href="<?php echo esc_url( home_url( '/signup' ) ); ?>" class="foot-mini-cta" style="display:flex;">
-            <span class="fmc-ic"><img src="<?php echo esc_url( home_url( '/wp-content/uploads/2024/01/5f1a59d6f884854a22b65124_woocommerce-logo.svg' ) ); ?>" alt="WooCommerce" style="width:30px;height:30px;object-fit:contain;"></span>
+          <a href="<?php echo esc_url( 'https://app.f13commerce.com/register' ); ?>" class="foot-mini-cta" style="display:flex;">
+            <span class="fmc-ic"><?php echo sdn_platform_icon( 'woocommerce', 30 ); ?></span>
             <div><strong>WooCommerce Plugin</strong><small>Self-hosted WordPress</small></div>
           </a>
         </aside>

@@ -33,7 +33,7 @@ while ( have_posts() ) :
     $sku         = $product->get_sku();
     $weight      = $product->get_weight();
     $dimensions  = array_filter( array( $product->get_length(), $product->get_width(), $product->get_height() ) );
-    $register    = 'https:///signup';
+    $register    = 'https://app.f13commerce.com/register';
     $shop_url    = get_permalink( wc_get_page_id( 'shop' ) );
     $is_variable = $product->is_type( 'variable' );
     ?>

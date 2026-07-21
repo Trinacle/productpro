@@ -16,7 +16,7 @@ get_header();
 
 $call_url   = home_url( '/call' );
 $demo_url   = home_url( '/demo' );
-$marketplace_url = 'https:///signup';
+$marketplace_url = 'https://app.f13commerce.com/register';
 ?>
 
 <main>

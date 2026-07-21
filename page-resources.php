@@ -18,7 +18,7 @@ $blog_url   = get_permalink( get_option( 'page_for_posts' ) ) ?: home_url( '/dro
 $tools_url  = home_url( '/recommend-tools-for-ecommerce' );
 $testi_url  = home_url( '/testimonials' );
 $contact_url = home_url( '/contact' );
-$register   = 'https:///signup';
+$register   = 'https://app.f13commerce.com/register';
 
 // Top blog categories for the category grid.
 $sdn_cats = get_categories( array(
